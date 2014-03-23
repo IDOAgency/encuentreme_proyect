@@ -1,0 +1,41 @@
+/* THIS IS A LSIT OF FILES MODIFIED WITH EACH VERSION
+   KEEP TRACK OF THIS WHEN UPDATING YOUR CHILD THEMES /*
+
+
+/* ======================= */
+/* ====== FEATURES ======= */
+/* ======================= */
+
+– NEW: Started a changelog of all edited files per release
+– FIX: Issue with Google Places API for listings located in the northern hemisphere
+– FIX: Submission Fields for File upload had a blank link
+– FIX: Updated Language Files
+– FIX: Updated Documentation with Sub Categories Information for Dependent Dropdowns (view "Dependent Dropdowns" section)
+– FIX: Fixed a layout issue in the backend with metaboxes
+– FIX: Wrapping Dropdowns in search forms Where dropdowns would drop a line if too long.
+– FIX: IE 10 Search Form would hide if clicked on a select field.
+
+
+
+/* ====================== */
+/* ===== VER 1.35.1 ===== */
+/* ====================== */
+
+/* ====================== */
+/* == MAIN THEME FILES == */
+/* ====================== */
+
+– style.css
+
+– js/sf.scripts.min.js
+– js/sf.map.min.js
+
+– includes/search/functions/ajax.php
+– includes/submission_field/functions/ajax.php
+– includes/spots/functions/meta/metaboxes.php
+
+/* ======================= */
+/* == CHILD THEME FILES == */
+/* ======================= */
+
+– includes/submission_field/single-file-submission.php

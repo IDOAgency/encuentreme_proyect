@@ -1,0 +1,99 @@
+/* THIS IS A LSIT OF FILES MODIFIED WITH EACH VERSION
+   KEEP TRACK OF THIS WHEN UPDATING YOUR CHILD THEMES /*
+
+
+/* ======================= */
+/* ====== FEATURES ======= */
+/* ======================= */
+
+– NEW: Added Sensitivity to Google Places API. Users can now set a distance in KM or MI to be added to Google Places API latitude and longitude results.
+– NEW: Retina ready pins and clusters
+– NEW: Better SEO for Categories and Tags
+– NEW: Option to display category title when in category page (set in category edit panel)
+– NEW: Template for tags
+– NEW: Added option to close registrations only but still let users log in (bPanel under Public Submissions > Main Settings)
+– FIX: Google Places API Code - To remove it just re-save search field without any code in it to reset the Google API Code
+– FIX: Issue with dependent drop downs when using sub categories
+– FIX: Issue when going to the listing page using a dependent drop down with subcategories
+– FIX: Click on subcategory labels (not only checkboxes) in front-end submissions
+– FIX: Map Manual Height
+– FIX: Dependent field trees and relations
+– FIX: Issue with Submission Fields where users were forgetting to add in the front-end markup
+– FIX: Issue with inputting money formatted prices above 1,000,000
+– FIX: Encoding issue with Google Maps API
+– REVIEWED: Thoroughly reviewed payment and subscription system - 100% functional.
+– REVIEWED: Dependent Fields - Unlimited levels of dependent fields now available
+– UPDATED: Documentation
+– UPDATED: RevSlider
+– UPDATED: GMAP
+
+
+
+
+
+/* ====================== */
+/* ===== VER 1.35.2 ===== */
+/* ====================== */
+
+/* ====================== */
+/* == MAIN THEME FILES == */
+/* ====================== */
+
+– taxonomy-spot_cats.php
+– taxonomy-spot_tags.php
+
+– includes/functions.php
+
+– includes/slider/markup-map.php
+– includes/slider/map/map-height.php
+
+– includes/bpanel/bpanel-config.php
+
+– includes/spots/single-header.php
+– includes/spots/markup-add-new.php
+– includes/spots/markup-login.php
+– includes/spots/functions/functions.php
+– includes/spots/functions/ajax.php
+– includes/spots/functions/taxonomy.php
+– includes/spots/functions/metaboxes.php
+– includes/spots/functions/meta/metaboxes.php
+– includes/spots/functions/meta/metabox-categories-edit.php
+– includes/spots/functions/meta/metabox-categories.php
+
+– includes/search/search-fields.php
+– includes/search/listings-header-map.php
+– includes/search/functions/ajax.php
+
+– includes/submission_fields/functions/metaboxes.php
+
+– includes/widgets/location/location.php
+
+– style.css
+
+– js/sf.map.min.js
+– js/scripts.min.js
+– js/sf.user.min.js
+– js/markerclusterer.min.js
+– js/gmap3.min.js
+
+
+
+
+
+
+/* ======================= */
+/* == CHILD THEME FILES == */
+/* ======================= */
+
+– taxonomy-spot_cats.php
+– taxonomy-spot_tags.php
+
+– includes/spots/single-header.php
+– includes/spots/markup-add-new.php
+– includes/spots/markup-login.php
+
+– includes/search/search-fields.php
+– includes/search/listings-header-map.php
+
+– includes/slider/markup-map.php
+– includes/slider/map/map-height.php

@@ -1,0 +1,1979 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+    <!-- HEAD BEGINS -->
+    <head>
+    	
+        <!-- CHARSET -->
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	
+        <!-- PAGE TITLE -->
+    	<title>BTOA Docs</title>
+        
+        <!-- CSS FILES -->
+        <link rel="stylesheet" href="style.css" media="screen" />
+        
+        <!-- JAVASCRIPT FILES -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        
+        <!-- JQUERY ACTIVATORS -->
+        <script type="text/javascript">
+		
+			jQuery(document).ready(function() {
+				
+				jQuery('#content').contentsBuild();
+				
+				jQuery('.video').each(function() { jQuery(this).btoaVideo(); });
+				
+			});
+		
+		</script>
+    
+    </head>
+    <!-- HEAD ENDS -->
+    
+    <body>
+    
+    	<div id="header">
+        
+        	<div class="wrapper">
+            
+            	<a href="http://themes.btoa.com.au/" target="_blank" id="logo"><img src="images/logo.gif" alt="" title="" /></a>
+                
+                <ul id="menu">
+                
+                	<li><a href="http://themes.btoa.com.au/support" target="_blank">Get Support</a></li>
+                
+                	<li><a href="http://themes.btoa.com.au/customise" target="_blank">Customise</a></li>
+                
+                </ul>
+                <!-- /#mnu/ -->
+                
+                <div class="clear"></div>
+            
+            </div>
+            <!-- /#header .wrapper/ -->
+        
+        </div>
+        <!-- /#header/ -->
+        
+        <div id="content">
+        
+        	<div class="wrapper">
+            
+            	<div id="contents">
+                    
+                    <div class="clear"></div>
+                
+                </div>
+                <!-- /#contents/ -->
+				
+				<div>
+				
+					<h2>READ ME FIRST</h2>
+				
+					<h3>Welcome</h3>
+					
+					<p><object width="500" height="375"><param name="movie" value="http://www.youtube.com/v/KLq9VuxB5yM?hl=en_US&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/KLq9VuxB5yM?hl=en_US&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="500" height="375" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+					
+					<h3>The SpotFinder Logic</h3>
+				
+					<p>Before we start anything, we have created a couple of videos that explain the logic behind spotfinder and explain to you our thought process when it comes to coming up with versions of Spotfinder. I do highly recommend you watch them both as they will clear your mind on how the theme works.</p>
+					
+					<div class="one-half">
+					
+						<iframe width="480" height="270" src="http://www.youtube.com/embed/Cc3Er4S4EeQ" frameborder="0" allowfullscreen></iframe>
+					
+					</div>
+					<!--  -->
+					
+					<div class="one-half last">
+					
+						<iframe width="480" height="360" src="http://www.youtube.com/embed/s7b9TFw6ZAQ?rel=0" frameborder="0" allowfullscreen></iframe>
+					
+					</div>
+					<!--  -->
+					
+					<div class="clear"></div>
+					
+				</div>
+				
+				
+				
+				
+				<div>
+                
+					<h2>Getting Started</h2>
+					
+						<div class="video" title="2YjAcOeoLFI"><span>Watch narrated video for this section</span></div>
+					  
+					<p>Getting started with your theme is fairly easy. First of all you will need a wordpress install on your server. Once you've got that fresh install up and running, it's time to install our theme.</p>
+					
+					<div>
+					
+						  <h3>Installing your theme</h3>
+						
+						<p>There are two ways to install your theme, through the Admin Panel, or via FTP</p>
+						
+						<h4>Admin Panel (Easy)</h4>
+						
+						<p>In your wordpress admin panel; Go to "Appearance > Themes". Once there click "Install Themes". On the new page click "Upload", right under the tabs. Now make sure you upload your zip file for the theme (not what you downloaded from themeforest).</p>
+						
+						<p class="alert">The file you will be uploading is called spotfinder.zip and is located in the folder "Wordpress Files" within your download file.</p>
+						
+						<p>Once you've finished uploading, click "Activate Theme" (Or altenatively, go to your themes page again and activate SpotFinder).</p>
+						
+						<p class="image"><img src="assets/0001.jpg" /><span>Upload your download file in this section</span></p>
+						
+						<h4>Via FTP (Advanced)</h4>
+						
+						<p>Unzip the file spotfinder.zip from your download file. Via FTP, upload the folder you just extracted (spotfinder) to your folder /wp-content/themes/.</p>
+						
+						<p>Once you've finished installing your theme, let's start with the basics!</p>
+						
+						<p class="alert">The folder you will be uploading is called spotfinder and is located in the folder "Wordpress Files" within your download file.</p>
+						
+					</div>
+					
+					
+					<div>
+                
+						<h3>Quick Set-up</h3>
+						
+						<p>The easiest way to get your theme up and running in no time is to upload the dummy content included in your download file as well importing the admin panel options using the file provided. These files provide content to populate all your website.</p>
+						
+						<p>To upload it, simply go in your admin panel under "Tools > Import". Initially you'll need to install a plugin in order to upload the file. Install the plugin and return to this page.</p>
+						
+						<p class="image"><img src="assets/0002.jpg" /><span>Upload as a wordpress file.</span></p>
+						
+						<p>Start by selecting which live preview you would like to use. Inside each folder there are two files.</p>
+						
+						<ul>
+						
+							<li><strong>dummy.xml</strong> - This is your wordpress xml file. Import this file using the wordpress import tool.</li>
+							<li><strong>bpanel.txt</strong> - This is your custom admin options. To import this open the .txt file, copy the entire string of text. Now go to your admin panel and at the very bottom of your left sidebar you will see the custom admin panel. Go under Content Options and "Import Options". Simply paste the string you copied earlier in there and hit the button "Import Options". This will import all options for your custom admin panel.</li>
+						
+						</ul>
+				
+				</div>
+				
+				
+				
+				<div>
+				
+					<h3>Importing bPanel Options</h3>
+					
+					<p>With each live preview you can import you can also import the admin options for your bPanel.</p>
+					
+					<p>To do so go in your bPanel and under "Content Settings > Import Options" You will find a text are where you can paste in your code.</p>
+					
+					<p>In your download file navigate to the dummy content folder of the live preview you want to import and open up the .txt file.</p>
+					
+					<p>Copy the entire content of the file and paste in that text area and hit "Import Options".</p>
+					
+					<p>You can also backup your options every noe and then. This is very useful when doing styles.</p>
+				
+				</div>
+					
+				<div>
+				
+					<h3>Set your homepage</h3>
+					
+					<p>One the first things you will do is set your homepage template. Out of the box Spotfinder's homepage displays the blogroll so in order for us to display our homepage template do the following.</p>
+					
+					<h4>Start a new page.</h4>
+					
+					<p>Create a new page and set the Template as "Home"</p>
+					
+					<h4>Publish it</h4>
+					
+					<p>Just click publish nad let's now set it as our homepage</p>
+					
+					<h4>Set our frontpage</h4>
+					
+					<p>Navigate to <i>Settings</i> > <i>Reading</i> in your dashboard and set your <i>Front page displays</i> to <i>A static page (select below)</i>. Make sure that you select your <i>Front page:</i> as the page you have just created.</p>
+					
+					<p class="image"><img src="assets/009999.jpg" /><span>Set your homepage template</span></p>
+				
+				</div>
+				
+				
+				<div>
+                
+                <h3>Wordpress Settings</h3>
+                
+                <p>Make sure you go through your general wordpress settings under "Settings" in your admin panel.</p>
+				
+				</div>
+				
+				<div>
+                
+                <h3>Custom Admin Panel</h3>
+                
+                <p>You probably have noticed that after you installed the theme, a few new menus have shown on your admin panel. The very last one is the custom admin panel included with this theme to help you manage your theme. Let's start by editing some basic information and theming for your website.</p>
+                
+                <p>Once there, you'll notice that the admin panel is divided int osection to better organise it. The first section is where you'll spend the majority of your time.</p>
+				
+				</div>
+				
+				<div>
+                
+                <h3>Permalinks</h3>
+                
+                <p>It's a good idea to set your permalinks as a custom structure. Spotfinder does not rely on custom permalinks but I usually like to use "/%category%/%postname%/"</p>
+				
+				</div>
+				
+			</div>
+				
+				
+				
+			<div>
+				
+				<h2>Header</h2>
+				
+				<div class="video" title="BGy22GlH3_g"><span>Watch narrated video on how to setup your header</span></div>
+				
+				<p>In this section we'll be looking at setting up our header and styling it.</p>
+				
+				<div>
+				
+					<h3>Menu</h3>
+					
+					<p>Spotfinder uses the Wordpress menu manager for the main menu. Please refer to the codex on how to use the menu manager or watch the video above.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Importing Logo</h3>
+				
+					<p>If you ahve looked at your homepage so far you'll see that the header is no aligned properly. In order to fix that we need to upload our logo. THis happend because SpotFinder uses the height of your logo image to align things properly.</p>
+					
+					<p>You will need a standard size version for your logo as well as a 2x version for retina displays (optional).</p>
+					
+					<p>Navigate to your bPanel and under "Header Options > Logo" and either paste in the URL for your logo image or click the little upload button at the edge of the input to upload a new one.</p>
+					
+					<p>Once you have done that your menu should be now aligned</p>
+				
+				</div>
+				
+				<div>
+				
+				<h3>Social Icons</h3>
+				
+					<p>The social icons on the right side of your header are optional and we have already made a set of predefiend icons.</p>
+					
+					<p>In your bPanel under "Header Options > Social Icons" You will find several fields.</p>
+					
+					<p>You can disable your social icons by toggling the switch and if necessary you can insert your own HTML there.</p>
+					
+					<p>If you are using the social icons just fill in the appropriate addresses and the fields that have addresses will automatically show up in the theme.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Header Styling</h3>
+					
+					<p>You can edit the way your header looks by navigating in your bPanel to "Header Options > Styling".</p>
+					
+					<p>You will see several different color fields where you can edit the appropriate colors.</p>
+					
+					<ul>
+					
+						<li><strong>Header Top Border Color</strong>: This is the color of the border that shows at the top of your header.</li>
+					
+						<li><strong>Header Background Color</strong>: Background color of your header bar</li>
+					
+						<li><strong>Menu Link Color</strong>: This is the color of your menu links. These links include the ones that are not active or hovered</li>
+					
+						<li><strong>Menu Link Color - HOVER</strong>: Color of the link of your menu when the user HOVERS that link.</li>
+					
+						<li><strong>Menu Link Color - ACTIVE</strong>: Color of your menu links when they are active (when they are the active page the user is at)</li>
+					
+						<li><strong>Menu Link Color Border - HOVER</strong>: Color of the border of the menu item when the user hovers an item.</li>
+					
+						<li><strong>Menu Link Color Border - ACTIVE</strong>: Color of the border of the menu item when the user is in that page (when they are the active page the user is at)</li>
+					
+						<li><strong>Social Icons Color</strong>: Color of the social icons. This is the color of the little icons themselves.</li>
+					
+						<li><strong>Social Icons Background Color</strong>: Background color of the social icons (this is the color of the little circle background).</li>
+					
+					</ul>
+					
+					<p>Once you have set these er are ready to move and start doing our listing options.</p>
+					
+				</div>
+				
+			</div>
+				
+				
+				
+				
+			<div>	
+				
+				<h2>Listings</h2>
+				
+				<div class="video" title="XUzGFUto3Ic"><span>Watch narrated video on how to setup basic options for your Listings</span></div>
+				
+				<div>
+				
+					<h3>Main Options</h3>
+					
+					<p>Before we start anything let's set up our basic configuration for our listings which are the names for it.</p>
+					
+					<p>Navigate to your bPanel under "Spot Options > Main Options". There are four fields you need to set.</p>
+					
+					<ul>
+					
+						<li><strong>Spot Name</strong>: This is the main name for your spots. Call these whatever you want. Popular names are "Listing", "Property" and "Submission".</li>
+					
+						<li><strong>Spot Name - Plural</strong>: Same as the field above but in the plural form</li>
+					
+						<li><strong>Spots Slug</strong>: This is the slug for your listings. if using Custom permalinks these will be the URL for your listings.</li>
+					
+						<li><strong>Spots Categories Slug</strong>: This is the slug for each listing category.</li>
+					
+					</ul>
+				
+				</div>
+				
+				<div>
+				
+				<h3>Listing Categories</h3>
+				
+					<p>Before we start going into creating spots, we need to set our categories. If you have watched the Logic video you should have your categorie set by now.</p>
+					
+					<p>To create new categories Navigate in your admin panel to "Spots > Spot Categories" (This will change depending on what you called your spots in the section above).</p>
+					
+					<p>You will note that there are a few new fields in there that you can set.</p>
+					
+					<ul>
+					
+						<li><strong>Name</strong>: This is the name of your category</li>
+					
+						<li><strong>Default Pin</strong>: The default pin for listings in this category. You can select one of the colors. To see what each color is, you can view them in the edit category panel so you can create them first and re edit them to see what each color pin looks like.</li>
+					
+						<li><strong>Custom pin</strong>: This is the custom pin for this category. If you dont want to use one of the default pins you can add your own pin's URL in here. This overrides the default pin selection btu does not override the selection for custom pin within each listing.</li>
+					
+						<li><strong>Category Search Form</strong>: Which form is displayed at this category page. If you don't know what it means please watch the logic video.</li>
+					
+					</ul>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Adding Listings in Backend</h3>
+					
+					<p>I do recommend using the front end submission to add new listings but if you are not using them you can also use the backend panel.</p>
+					
+					<p>Listings are pretty straight forward to add. To start adding a new one go to "Spots > Add New" (this may depend on what you have called your spots before).</p>
+					
+					<p>When in there you will note there is a new section right underneath your content area.</p>
+					
+					<p>Let's start with the basics and move forward</p>
+					
+					<h4>Title</h4>
+					
+					<p>This is the main title of your listing.</p>
+					
+					<h4>Content</h4>
+					
+					<p>This is the content are of your listing. Include shortcodes or whatever you want in here.</p>
+					
+					<h4>Categories</h4>
+					
+					<p>Here you can select which category your listing should be listed under</p>
+					
+					<h4>Excerpt</h4>
+					
+					<p>This is a brief description of your content. The theme irself can generate excerpts automatically but you can custom insert them here.</p>
+					
+					<h4>Tags</h4>
+					
+					<p>Fill tags for your listing. This is widely used when you have a keyword field in your website, as the keyword field looks for these tags.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Front-end</h3>
+					
+					<p>This is where you set most of your front end options. Its located right under your content area in the very first tab</p>
+					
+					<ul>
+					
+						<li><strong>Slogan</strong>: The slogan for your listing. This is usually displayed underneath the title as a secondary title.</li>
+					
+						<li><strong>Custom Pin</strong>: Custom pin for your listing used on maps. This overrides every single pin option within the theme.</li>
+					
+						<li><strong>Gallery</strong>: This is the gallery iamge for your listing. Spots do not use featured images bu this gallery instead. The first image is used as the placeholder. After you ahve uploaded mroe than one image you can drag and drop them around to re arrange them.</li>
+					
+						<li><strong>Contact Form</strong>: Whether or not a contact form should be enabled in this listing.</li>
+					
+						<li><strong>Featured</strong>: If enabled, this listing will have extra visibility such as showing on top of searches and pop up pin. (optional - refer to listings page section)</li>
+					
+					</ul>
+				
+				</div>
+				
+				<div>
+				
+				<h3>Location</h3>
+				
+					<p>This is where you set the location for your listing.</p>
+					
+					<p>You dont need to get latitude and longitude manually as filling in the address usually picks up the latitude and longitude automatically.</p>
+					
+					<ul>
+					
+						<li><strong>Address</strong>: The slogan for your listing. This is usually displayed underneath the title as a secondary title.</li>
+					
+						<li><strong>Latitude</strong>: Latitude of your listing. You can get this by either entering the address or at <a href="http://itouchmap.com/latlong.html">http://itouchmap.com/latlong.html</a></li>
+					
+						<li><strong>Longitude</strong>: Longitude of your listing. You can get this by either entering the address or at <a href="http://itouchmap.com/latlong.html">http://itouchmap.com/latlong.html</a></li>
+					
+						<li><strong>Map</strong>: You can also drag and drop of your pin on the map to get the latitude and longitude automatically.</li>
+					
+					</ul>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Search Options</h3>
+					
+					<p>This is the search options for your listing. This is where you will spend the majority of your time when adding listings</p>
+					
+					<p>Adding them is as simple as clicking around. If you have not created your search fields yet refer to the search fields section.</p>
+					
+					<h4>Dropdowns, Min Values, Max Values, Range Fields, Checkboxes</h4>
+					
+					<p>Here you can assign your listing to certain search fields previously created. If you have not created them yet please refer to the search fields section.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Custom Fields</h3>
+				
+					<p>You will also note thta you have a "Custom Fields" section in your options. These work as a workaround for extra information that is not available as search fields. You can literally add anything you want in there such as phone number and website for example.</p>
+					
+					<p>This fields do not take HTML but do take website URLS as links. You always need a label and a value.</p>
+					
+					<p>Once you have added more than one you can either click on them to re-edit it or drag and drop them to re arrange them.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Cart Options</h3>
+					
+					<p>This field is based on the Public Submission section. Please refer to that section for further information.</p>
+					
+					<p>THis is pretty much where any cart information is stored. Whenever an user adds something to the cart in theit public submission or whenever they pay for something this is where thigns change.</p>
+					
+					<p>You can manually accept payments or purchases and remove things from the cart from here.</p>
+					
+				</div>
+				
+			</div>
+				
+				
+				
+			<div>
+				
+				<h2>Search Fields</h2>
+				
+				<div class="video" title="eUnN37FGxAk"><span>Watch the introduction video for search fields</span></div>
+				
+				<p>Search fields work as the backbone for your website. They are fairly easy to use. If you haven't watched the logic video yet, go ahead and watch it as it is farily important.</p>
+				
+				<p>Note that however, search field can't exist by themselves. In order for them to be effective and to be able to filter listings, you need to assign them to search forms shich we do in the next chapter.</p>
+				
+				<div>
+				
+				<h3>Overview</h3>
+				
+					<p>When creating search fields you have 7 different search field types that you can use. Each one serve as a different purpose so we'll talk about them separetely.</p>
+					
+					<p>To start adding a new search field, navigate to your dashboard under "Search Fields > Add New"</p>
+					
+					<p>Search Fields only take in a title and and the options that you set. The first tab is where you set your field type and the other tabs depend on this selection. We'll talk about each one of them separetely.</p>
+				
+				</div>
+				
+				
+				<div>
+					
+					<h3>Dropdown Fields</h3>
+					
+					<div class="video" title="H_KDSLzsNaI"><span>Watch the narrated tutorial on dropdown fields</span></div>
+					
+					<p>Dropdown fields are probably the most used fields in SpotFinder. They work pretty much like categories, but instead of using categories themselves, we have create a set of options that are easier to use.</p>
+					
+					<p>To create a dropdown field start by selecting "Dropdown" in your field type.</p>
+					
+					<h4>Field Attributes</h4>
+					
+					<p>In the field attributes tab when you select dropdown as your field type we can set a few options:</p>
+					
+					<ul>
+					
+						<li><strong>Change map location upon selecting value</strong>: Toggle on and off whether the map should change location when the user sets a value for the dropdown. This field is only used whe nyou are using custom values. The location of the map is set in the next tab when we add our values.</li>
+					
+						<li><strong>Dropdown Type</strong>: Here you can set whether the values of your dropdown are custom values or just your categories. </li>
+					
+						<li><strong>Dropdown Categories</strong>: If you have set your dropdown type as categories, here you can select which categories are actually displayed in the dropdown.</li>
+					
+					</ul>
+					
+					<h4>Field Values</h4>
+					
+					<p>If you have set custom values as your dropdown type this is where you set your custom values.</p>
+					
+					<p>When creating new values you have 4 inputs you can fill out</p>
+					
+					<ul>
+					
+						<li><strong>Label</strong>: Thisis the label of your value. In other words the title.</li>
+					
+						<li><strong>Latitude</strong>: If you have set the Change map location option to true, you can insert here the latitude the map will change to when the user selects this value.</li>
+					
+						<li><strong>Longitude</strong>: If you have set the Change map location option to true, you can insert here the longitude the map will change to when the user selects this value.</li>
+					
+						<li><strong>Zoom Level</strong>: If you have set the Change map location option to true, you can insert here the zoom level the map should change to when the user makes this selection. Zoom values are between 1 and 20 where 1 is zoomed out and 20 is totally zoomed in.</li>
+					
+					</ul>
+					
+					<h4>Front-end Options</h4>
+					
+					<p>This is your front-end options and where we set most of the visual stuff.</p>
+					
+					<ul>
+					
+						<li><strong>Enable on Front End</strong>: If set to true, this search field value will be shown in the front end on map overlays, results lists and listing page. This is good when your search field is a value that the user needs to know the value for. For example when we are dealing with Property type for example, we can set this to true so the user sees it when he hovers the pin etc.</li>
+					
+						<li><strong>Front End Markup</strong>: If you have set the enable on front end to on, this is the markup that is shown. For example, if the user has selected "Townhouse" for our property type, this field is where you set how the value is outputted. You can use the characted "%" to replace it with the value the user has chosen. So for example if the user has chosen townhouse, we could set our markup to "Property Type: %" - So in the front end it would show "Property Type: Townhouse". You can also wrap the main label in span tags to make the label bolder. (example &lt;span>Property Type: &lt;/span> % - Would display <strong>Property Type: </strong> Townhouse. <i><a href="#search_fields_front_end">For more information on this field view this</a></i></li>
+					
+						<li><strong>Enable on Sort By</strong>: If set to true the user will be able to sort his results based on this search field. Only avaialble for numeric field. <span class="error">Not available for dropdowns</span></li>
+					
+					</ul>
+					
+					<h4>Submission Options</h4>
+					
+					<p>This is where we can set a few submission options. Please refer to the Public Submissions settings for a more in-depth look at this</p>
+					
+					<ul>
+					
+						<li><strong>Enable Field on Public Submissions</strong>: Whetehr or not this field is available for setting during public submissions. If set to off the user will not see this during his submisison</li>
+					
+						<li><strong>Required</strong>: If available in our public submissions, make this a required field, forcing the user to seelct at least one value.</li>
+					
+						<li><strong>Categories</strong>: Choose what categories this field applies to. This comes down to category speicific fields. Meaning that the user can only select this field, if he has selected on the categories chosen.</li>
+					
+						<li><strong>Description</strong>: Description for this field on public submissions - HTML accepted</li>
+					
+						<li><strong>Dropdown Multiple or Single</strong>: Whether to let the user select only one value or multiple ones.</li>
+					
+						<li><strong>Search field price</strong>: Set this to 0 or leave blank to not charge the user. If set to a numeric value, the user will ahve to pay this value to be able to set this field.</li>
+					
+						<li><strong>Cart description</strong>: Description that shows in the cart and checkout when the user adds this field to the cart.</li>
+					
+					</ul>
+					
+					<h4>Radius - Advanced Geolocation</h4>
+					
+					<div class="video" title="KEogSeOmsaw"><span>Watch narrated video for the 1.2 Update with geolocation</span></div>
+					
+					<p>SInce spotfinder 1.20 we have introduced the radius option for dropdown, and dependent dropdown fields. When you have the <i>Change map location upon selecting value</i> turned on, we are able to select a radius for each and every value.</p>
+					
+					<p>The difference between using and not using a radius is that whe na radius is selected, we <strong>ignore</strong> the selection of this dropdown fiwld for the listings, and filter based on the radius each field has.</p>
+					
+					<p>For example. Suppose we have a dropdown field called <i>City</i>. If we are <strong>NOT</strong> using radius, we will get the user's selection of city, and filter every listing that has that "city" assigned to it. Now if er <strong>ARE</strong> using radius, we do not take into consideration which city a listing has assigned to it, we take into consideration the center point of the dropdown item (latitude and longitude) and we draw a radius around it. And instead of filtering by the selection of the search field, we include every listing that is within this radius.</p>
+					
+					<p>Keep in mind that doing queries with radius as such can be quite slow. If you are planning on running a website that has more than 1000 listings I would highly recommend <strong>not</strong> using radius as this can slow down websites on shared hosts and etc.</p>
+					
+					<p>To set a radius for a dropdown, simply create a new dropdown, type in your latitude and longitude, and set a radius. Radiuses can be set in either kilometres or miles, depending on what you have set in your custom admin panel under <i>Map Options</i> > <i>Geolocation Options</i></p>
+					
+					<p><span class="alert">In order for the radius to work, you must turn on the option <i>Change map location upon selecting value</i> as well as have a valid latitude and longitude for each value.</span></p>
+					
+				</div>
+					
+					
+				<div>
+					
+					<h3>Dependent Dropdowns</h3>
+					
+					<div class="video" title="ynG1FBtzHU8"><span>Watch the narrated tutorial on dependent dropdown fields</span></div>
+					
+					<p>Dependent dropdowns work just like dropdown fields, but instead they need a parenting dropdown in order to work. Dependent Dropdowns are a very good way to create a chain of selections for your user. The basic concept of Dependent dropdowns is that; Depending on the selection of its parent dropdown, the values of the depend dropdown change, to match the selection of its parent.</p>
+					
+					<p>Think of it this way, Imagine we are creating two dropdowns - Country and Area. In country we can select which country we want to look at, and <strong>based on the selection of my country, I want the user to be able to select the area of that country.</strong> Now because Areas vary from country to country, you would like to have different values for different countries, and dependent dropdowns do just that.</p>
+					
+					<p>When you select your search field as a dependent dropdown, the process of configuring it is pretyt much the same as the dropdown with a few additions. In this section we will only refer to the extra options and differences. For more information on other fields check out the previous section.</p>
+					
+					<h4>Dependent Dropdowns for Categories</h4>
+					
+					<p>From SpotFinder 1.35 you can now use dependent dropdowns with categories. All you have to do is create a parent dropdown with categories (nto custom values), and create a new dependent dropdown that has that dropdown as the parent.</p>
+					
+					<p><span class="alert">Make sure you only select parent categories when creating your parent dropdown.</span></p>
+					
+					<h4>Field Attributes</h4>
+					
+					<ul>
+					
+						<li><strong>Parent Dropdown:</strong> This is your parent dropdown. Select one of the dropdowns you have already created. <span class="alert">Once you have made this selection, save as a draft or publish it so the theme can load the options from the parent dropdown</span></strong></li>
+					
+					</ul>
+					
+					<h4>Field Values</h4>
+					
+					<p>This works just like the dropdown values with the addition to the parent item field. The parent field is the one of the fields from your parent dropdown.</p>
+					
+					<p>When you add a new value to a parent, it tell the theme that these are the values that should be shown when the user selects the parent. So for example, if we have <i>East Coast</i> and <i>West Coast</i> under the <i>United States</i> parent item, when the user selects the field <i>United States</i> in his parent dropdown, the dependent search field will automatically populate itself with <i>West Coast</i> and <i>East Coast</i></p>
+					
+					<p> <span class="error">For more information on the other fields refer to the Dropdown subsection</span></p>
+					
+					<span id="search_fields_front_end"></span>
+					
+					<h4>Radius - Advanced Geolocation</h4>
+					
+					<div class="video" title="KEogSeOmsaw"><span>Watch narrated video for the 1.2 Update with geolocation</span></div>
+					
+					<p>SInce spotfinder 1.20 we have introduced the radius option for dropdown, and dependent dropdown fields. When you have the <i>Change map location upon selecting value</i> turned on, we are able to select a radius for each and every value.</p>
+					
+					<p>The difference between using and not using a radius is that whe na radius is selected, we <strong>ignore</strong> the selection of this dropdown fiwld for the listings, and filter based on the radius each field has.</p>
+					
+					<p>For example. Suppose we have a dropdown field called <i>City</i>. If we are <strong>NOT</strong> using radius, we will get the user's selection of city, and filter every listing that has that "city" assigned to it. Now if er <strong>ARE</strong> using radius, we do not take into consideration which city a listing has assigned to it, we take into consideration the center point of the dropdown item (latitude and longitude) and we draw a radius around it. And instead of filtering by the selection of the search field, we include every listing that is within this radius.</p>
+					
+					<p>Keep in mind that doing queries with radius as such can be quite slow. If you are planning on running a website that has more than 1000 listings I would highly recommend <strong>not</strong> using radius as this can slow down websites on shared hosts and etc.</p>
+					
+					<p>To set a radius for a dropdown, simply create a new dropdown, type in your latitude and longitude, and set a radius. Radiuses can be set in either kilometres or miles, depending on what you have set in your custom admin panel under <i>Map Options</i> > <i>Geolocation Options</i></p>
+					
+					<p><span class="alert">In order for the radius to work, you must turn on the option <i>Change map location upon selecting value</i> as well as have a valid latitude and longitude for each value.</span></p>
+					
+				</div>
+				
+				<div>
+					
+					<h3>Text Field</h3>
+					
+					<div class="video" title="H7aFbTSI9X4"><span>Watch the narrated tutorial on text fields</span></div>
+					
+					<p>A text field is a simple text input field that filters your listings based on tags or using the Google Places API. If you do not plan on using tags for your website, or if you do not wish to use the Google Places API this field proves itself useless.</p>
+					
+					<h4>Field Attributes</h4>
+					
+					<p>There are 3 options under your attributes tab:</p>
+					
+					<ul>
+					
+						<li><strong>Load Suggestions:</strong> If enabled, whenever the user starts typing in the field, the theme will automatically look for existent tags and display them as a dropdown - works like the google autosuggest system.</li>
+					
+						<li><strong>Default Text:</strong> This is the default or placeholder text for your input. It is recommended that you use something that suggests the user what to type in, such as <i>Keywords, color, type etc...</i></li>
+					
+						<li><strong>Input Searches For:</strong> As of this moment, this field is only able to search for existent tags due to performance issues.</li>
+					
+					</ul>
+					
+					<h4>Frontend and Submission Options</h4>
+					
+					<p><span class="error">Text fields do not use these fields therefore they do not have any effect</span></p>
+					
+				</div>
+				
+				<div>
+					
+					<h3>Text Field - Google Places API</h3>
+					
+					<div class="video" title="wTKHHQar0es"><span>Watch the narrated tutorial on the google places API</span></div>
+					
+					<div class="video" title="zXhDUEaPnCw"><span>Watch the narrated tutorial on how to fix issues for your Google Places API Errors</span></div>
+					
+					<p>The google places API is introduced with the 1.35 update and allow users to search lsitings by using the Google Places API suggestions, by postcode, area, city, suburb and a lot more.</p>
+					
+					<p>Setting it up is easy but first you will need to get a google API key. In order to do that please foolow these steps: https://developers.google.com/places/documentation/#Authentication</p>
+					
+					<p>Note that when you create an API key, you will also need to enable Google Maps API within that project as well.</p>
+					
+					<h4>Adding your field</h4>
+					
+					<p>Creating your Google Places API text field is as simple as creating a normal text field "see section above" with an extra couple of options.</p>
+					
+					<p>Start by creating a new search field and select "text" as the type.</p>
+					
+					<p>Hop into Field Attributes and make sure you have selected <i>Input Searches For:</i> with the <i>Google Places API</i>. Also don't forget to set up your Default text so the user knows what to type in.</p>
+					
+					<p>Now that we have added our field we need to include our Google Places API key as well as our country.</p>
+					
+					<p>You will note that there is a Google Places Api tab now in your field attributes. Opening that up you will be able to include your Google Places API as well as your country code. Leave the country code blank to fetch results from everywhere.</p>
+					
+					<h4>Including it in the form</h4>
+					
+					<p>Include your field in the form like anything else.</p>
+					
+					<h4>Google Places API Sensitivity</h4>
+					
+					<p>SpotFinder 1.35.2 includes the sensitivity feature. Inserting this you are able to add a buffer to the boundaries to google places API provides in either kilometres or miles (depending on what you've set). Setting this basically means that it will increase the boundaries set by google by the distance you have set.</p>
+					
+				</div>
+				
+				<div>
+					
+					<h3>Min. &amp; Max. Fields</h3>
+					
+					<div class="video" title="TJvUAAb8XkI"><span>Watch the narrated tutorial on minimum and maximum fields</span></div>
+					
+					<p>Minimum and maximum fields are numeric fields which work as a limiter when it comes to filtering. Whenever in place, maximum or minimum falue fields filter the listings based on the value the user hsa chosen.</p>
+					
+					<p>A minimum value will let the user choose a numeric value, where the theme will then take that value, and only display lists that have that value or higher. For maximum value fields the other way around; The theme will then take the value, and limit listings that have that specific value equal or lower to the value the user has chosen.</p>
+					
+					<p>To give you a better example, let's think of it as star rating. For a minimum value, if the user has set to say, <strong>3</strong>, the theme will then look for listings that have a minimum rating value of 3. For maximum fields it would only look for listings with the rating of 3 or less.</p>
+					
+					<p>A good thing about min. and max. fields is that they work like dropdowns, so you can actually limit what the user can choose.</p>
+					
+					<h4>Field Attributes</h4>
+					
+					<p><span class="error">This field does not take any attributes</span></p>
+					
+					<h4>Field Values</h4>
+					
+					<p>You will note that this section is very similar to the dropdown section. Here you can insert a label (this works as a title in your dropdown) and a numeric value.</p>
+					
+					<p>Your numeric value, is a whole number which the theme uses to filter the listings.</p>
+					
+					<p><span class="alert">Unlike dropdowns, your first value is the default value for your search field. You can also leave the field <i>value</i> blank. It is recommended that you set your first value as blank, this way the theme will ignore this field.</span></p>
+					
+					<p>If we were setting a ratings field for example, I would start with a value labeled <i>Any</i> and a value <i>blank</i>. From there I would start with a value labeled <i>1+ Stars</i> and a value of <i>1</i></p>
+					
+				</div>
+				
+				<div>
+					
+					<h3>Range Fields</h3>
+					
+					<div class="video" title="q8KYF5pka0g"><span>Watch the narrated tutorial on range and check fields</span></div>
+					
+					<p>Range fields is a combination of minimum and maximum fields, enabling your user to set a range of a numeric value that filters your results. The main difference is the way it is displayed in the front end and that you need to set a minimum and a maximum value.</p>
+					
+					<p>Instead of creating a set of pre defined values, you set a minimum and a maximum value as well as an increment step. The increment step defines how the user slides it, 1 by 1, 5 by 5 and so forth.</p>
+					
+					<h4>Field Attributes</h4>
+					
+					<ul>
+					
+						<li><strong>Minimum Value:</strong> The minimum value the user can set in the range field.</li>
+					
+						<li><strong>Maximum Value:</strong> The maximum value the user can set in te range field</li>
+					
+						<li><strong>Increment Steps:</strong> When the user uses the slide, specify the steps in how the slide increments. So instead of when he slides it increases/decreases 1 by 1, it can be 5 by 5, 1000 by 1000 and so forth</li>
+					
+						<li><strong>Label:</strong> The label that is displayed in the front end. This is the displayed chosen range of the user. Here the sign <i>%</i> is replaced with the value. So for prices for example you could set <i>$%</i> which in the front end it would display something like <i>$10 - $150</i></li>
+					
+						<li><strong>Enable Input:</strong> If togled off, the user is forced to use one of the values of the slider when submitting, otherwise he is able to insert a custom value that is not a part of one of the increments.</li>
+					
+					</ul>
+					
+					<p><span class="alert">For all the other fields please refer to the other sections - dropdown section</span></p>
+					
+				</div>
+				
+				<div>
+					
+					<h3>Check Fields</h3>
+					
+					<div class="video" title="q8KYF5pka0g"><span>Watch the narrated tutorial on range and check fields</span></div>
+					
+					<p>Check fields are basic true of false fields and do not require any sort of options aprt from front-end submissions and front end options which we cover in the dropdown section.</p>
+					
+				</div>
+				
+				<div>
+					
+					<h3>Front-End Markup </h3>
+					
+					<p>When creating your search fields you can select whether or not the values chosen are displayed in the front-end.</p>
+					
+					<p>If enable you can choose the way the value is displayed. You have two options, you can set a static text or use the string "%%" to replace it with the value the user has chosen.</p>
+					
+					<p>For example, Say we have a search field called "Country" where the user is able to select from a number of different contries. For the purpose of this example let's say the user has chosen "Brazil". We can either just use <i>%%</i> where this piece of string would be replaced with the value, in our xase in the front end it would display as <i>Brazil</i></p>
+					
+					<p>We can also insert labels, so instead of just displaying the name <i>Brazil</i>, we could use instead <i>Country: %%</i> where this would display <i>Country: Brazil</i></p>
+					
+					<p>You can also make the use of <i>&lt;span></i> tags to further style it. span tags are by default, bold and have a lighter color. IN this case we would the use <i>&lt;span>Country:&lt;/span> Brazil</i>, where in the front-end this would display <i><strong>Country: </strong>Brazil</i></p>
+				
+					<h4>Multiplying Labels</h4>
+					
+					<p>This proves helpful when using fields that are numeric so we can have icons. In our Restaurant & BArs Live preview you'll see that we have stars as the rating. For this purpose we use the keyword <i>%_*VAL_% THE_ELEMENT</i>.</p>
+					
+					<p>By using the keyworkd <i>%_*VAL_%</i> we tell the theme to multiply whatever comes after it. So if we replace the string <i>THE_ELEMENT</i> with the image of a star or with an fontawesome icon, we can achieve this result.</p>
+					
+				</div>
+				
+			</div>
+			
+			<div>
+			
+				<h2>Search Forms</h2>
+				
+				<p>Search forms are the second part of your search functionality. Once you have created your search fields you can assign them to search forms. Search forms are assigned to listing pages in which they impact the result of your listings.</p>
+				
+				<p><span class="alert">For your listings to work properly, you need at least one search form in your website.</span></p>
+				
+				<div>
+				
+					<h3>Overview</h3>
+					
+					<p>Search forms are located right under your Search fields in the admin panel, and you can start adding a new one by going to <i>Search Forms</i> > <i>Add New</i></p>
+					
+					<p>First thing you'll note when adding a new search form is that the panel looks pretty similar to our search fields. This is an easy to use, drag & drop panel, so no dramas here.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>bPanel Options</h3>
+					
+					<p>For your search form we only need to set a few options. In your bPanel, navigate to <i>Search Options</i> > <i>Main Options</i>. Here are the options</p>
+					
+					<ul>
+					
+						<li><strong>Search Bar:</strong> This is the search form that is displayed in your homepage. If you have more than one please make sure that you select the appropriate form here.</li>
+					
+						<li><strong>Search Bar Position:</strong> The position of your search bar in relation to the slider. This can either be positioned at the top or bottom of your slider.</li>
+					
+						<li><strong>Initial Visibility:</strong> Whether the search bar should always be visible or only visible when hovering it.</li>
+					
+						<li><strong>Enable User Notifications for Matching Submissions:</strong> Whether or not to enable user notifications. Refer to the User Notification section for more information on this.</li>
+					
+					</ul>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Styling</h3>
+					
+					<div class="video" title="Bw-zm5gw8sw"><span>Watch the narrated tutorial on how to style your search forms.</span></div>
+					
+					<p>To style your search form we first need to navigate to our bpanel and go to the section <i>Search Options</i> > <i>Styling</i>. There you will find a few fields where you can edit color. Here are the fields</p>
+					
+					<ul>
+					
+						<li><strong>Search Bar Background Color: </strong> This is the background color of your search bar.</li>
+					
+						<li><strong>Search Bar Text Color: </strong> This is the color of all the labels in your search bar - Not the color of the text inside the inputs</li>
+					
+						<li><strong>Search Bar Divider Color: </strong> This is the color of the divider in the search form - For more information visit the <i>Search Form</i> section.</li>
+					
+						<li><strong>Search Bar Inputs Background: </strong> This is the background color of all your inputs in the search form.</li>
+					
+						<li><strong>Search Bar Inputs Color: </strong> This is the color of the text that goes inside your search form inputs</li>
+					
+					</ul>
+					
+					<p>Once These settings are done make sure you hit the save button.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Basic Setup</h3>
+					
+					<div class="video" title="-ei2NzT7NsY"><span>Watch the narrated tutorial on the basics of search forms.</span></div>
+					
+					<p>The first thing you want to do is set your initial column layout. You can set your form to be 1 to 5 columns.</p>
+					
+					<p>Choose from the dropdown your column layout. Once done that you can start by just dragging the fields you have created located at the bottom of your page into the columns.</p>
+					
+					<p class="image"><img src="assets/006.jpg" /><span>You can just drag & drop your search field in your search form columns.</span></p>
+					
+					<h4>Label</h4>
+					
+					<p>If you click one of your fields that are inside a column, you will see a panel showing that you can set the label for that field. This overrides the default title of your searchfield within the search form. Your label set here is the one displayed in the search forms as your label. View the image below to see which label I am talking about.</p>
+					
+					<p class="image"><img src="assets/003.jpg" /><span>Set a different label for your field within your form.</span></p>
+					
+					<h4>Dividers</h4>
+					
+					<p>Dividers are special fields that add a little divider within your fields. By adding a divider to your column, a line is added to better organise your layout. In the image below there is an example of a divider being used.</p>
+					
+					<p class="image"><img src="assets/004.jpg" /><span>The divider field is a special type of item you can assign in your forms.</span></p>
+					
+					<h4>Open & Close Columns</h4>
+					
+					<p>Additionally to the dividers, you can also add an extra set of columns, inside a single column within your form. This proves helpful to use with checkboxes and fields that do not need to be too big. See below how columns are used in one of our live previews.</p>
+					
+					<p>To open a new column use the item <i>Open Column</i>. Whatever you put under the <i>Open Column</i> item will be now only half the width of the main column.</p>
+					
+					<p>Once you have finished putting fields in your new column, <strong>make sure you close it off by using the <i>close column</i> field</strong> <span class="error">For everytime you use an <i>open column</i> item, you will need another <i>close column</i> item after it, otherwise your layout will break.</span></p>
+					
+					<p class="image"><img src="assets/005.jpg" /><span>Here you can clearly see how we have divider one of our columns into two columns.</span></p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>"Only show this field if"</h3>
+					
+					<div class="video" title="d4QOatO4n4Q"><span>Watch the narrated tutorial on the if statements for search forms.</span></div>
+					
+					<p>The <i>Only show this field if</i> part in your search form is a very powerful functionality that allows you to set if statements within your form with your search fields.</p>
+					
+					<p>The basic concept for this feature is that - Only show this field, in case a certain field's value is one the following.</p>
+					
+					<p>An example when to use this is in our Real Estate live preview. In that demo we have two different price fields, one for properties for sale, and one for properties for rental and holiday houses. Now by using this feature we can actually show only the appropriate price field based on the selection the user has made in the property type he is looking for - Sale or Rentals.</p>
+					
+					<p>To set an if statement, add a new field to your form and click to open up the hidden panel. You can now see a drop area where you can drag and drop another field in here. <span class="alert">Only dropdowns, min. values, .max values and checkboxes can be dropped here.</span></p>
+					
+					<p>By dropping a dropdown, min or max value field you will then be able to select which fields to base the if statement on. To make this a little clear here is an example: </p>
+					
+					<p class="image"><img src="assets/007.jpg" /><span>Here I have dragged the field "I'm looking for:" into the Bedroom field and selected two values and also checked the checkbox. In this case the field "Bedroom" will only show and be used in our form, if the user has selected one of the values chosen in his "I'm looking for" field. However, if you check the checkbox, this field will be shown in case the "I'm looking for" field has no selection at all.</span></p>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Listings Page</h2>
+				
+				<div class="video" title="1yUBqR_IhCY"><span>Watch the narrated tutorial on how to setup your listings page</span></div>
+				
+				<p>Your listings page is the main page that displays your listings. Unline the homepage in the listings page you can have your map and also your listings displayed as markup. For SEO purposes your listings page also changes URL based on yoru form settings.</p>
+				
+				<p>Creating your listings page is as easy as creating a normal page and you can opt to display or not the map.</p>
+				
+				<p>Before we start creating our listings page, we need to set up a few options first</p>
+				
+				<div>
+				
+					<h3>Listing Options</h3>
+					
+					<p>Before we start creating our listing page let's first set up a few options. In your admin panel navigate to the bPanel and go to <i>Search Options</i> > <i>Listing Options</i>.</p>
+					
+					<p>These are the options:</p>
+					
+					<ul>
+					
+						<li><strong>Initial List View:</strong> This is the initial view the user will have of the listings layout. Grid or Lists. In case you have the next option enabled this does not count.</li>
+					
+						<li><strong>Disable Gallery and Display Alternative Listing:</strong> In case this is enabled, you now have your alternative listing display. This is useful for listings that do not have images. Our live preview for "Jobs" has this feature enabled. Check it out :)</li>
+					
+						<li><strong>Listings per page options:</strong> This is the options the user has of how many results he can see per page. One option per line, numbers only.</li>
+					
+						<li><strong>Featured Spots always on top:</strong> If you enable this, featured properties will always show on top in case the user is viewing "Most Relavant" sort option.</li>
+					
+						<li><strong>Display Excerpt:</strong> Whether or not the listings will display a short part of the content in the listings page. List view only.</li>
+					
+						<li><strong>Excerpt Length:</strong> The length of the excerpt shown in list view, if set.</li>
+					
+						<li><strong>Display Categories:</strong> Whether or not display the category of the listing in the listings page.</li>
+					
+						<li><strong>Display Search Field Values:</strong> Whether or not to display the search field values assigned to each listing. Check out the search fields section for more information on the markup for the search values.</li>
+					
+						<li><strong>Placeholder Image:</strong> The default placeholder iamge in case a listing does not have an image.</li>
+					
+					</ul>
+					
+				</div>
+				
+				<div>
+				
+					<h3>Creating Listings Page</h3>
+					
+					<p>To create your listings page start by creating a normal page. In your admin panel go to <i>Pages</i> > <i>Add New</i></p>
+					
+					<p>The listings page is like a normal page but with a few extra settings. First thing to do is insert your title and select your default template as <i>Listings page</i> - Refer to the image below</p>
+					
+					<p class="image"><img src="assets/008.jpg" /><span>When creating your listings page make sure you select the "Listings Page" template.</span></p>
+					
+					<p>Once you have seelcted your <i>Listings Page</i> template, right under your shortcodes generator will be available a <i>Listings page optiosn</i> tab. Click on that and let's set the options there:</p>
+					
+					<p><span class="alert">For more information on the other tabs visit the Page section</span></p>
+					
+					<ul>
+					
+						<li><strong>Enable Map: </strong>Whether or not the map will be visible in your listings page. You can also have just the search form instead.</li>
+					
+						<li><strong>Search Form: </strong>Which search form your listings page will have. If you haven't created one yet visit the <i>Search Forms</i> section.</li>
+					
+					</ul>
+					
+					<p>All done! Once you have published this page you will note that the warning visibile at the top will be gone. If not make sure your page has the listings template.<br />
+<span class="alert">The listings page does not make use of the content area.</span></p>
+
+					<p>Make sure that you select the page layout that you wish!</p>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>The Map</h2>
+				
+				<div class="video" title="ozSK4hBVNvM"><span>Watch the narrated tutorial on your map options</span></div>
+				
+				<p>One of the main features on Spotfinder is without a doubt its interaction with Google maps.</p>
+				
+				<p>You can have unlimited pins with overlays and a whole lot more. In this section will talk abotu main styling and overlays and how to style it!</p>
+				
+				<p>First let's start with basic styling of the map and the move on to overlays.</p>
+				
+				<div>
+				
+					<h3>Map Options</h3>
+					
+					<p>In order to set our intial options, in your admin panel go to the bPanel under the section <i>Map Options</i> > <i>Main Options</i>. Here are the options</p>
+					
+					<ul>
+					
+						<li><strong>Enable Map Bar</strong>: Whether or not the map bar is shown in the homepage. This is the bar displayed right underneath your map with the number of results and a link to see it as a list.</li>
+					
+						<li><strong>Enable Map Overlays</strong>: Whether or not overlays are available. If overlays are not available user is redirected to the listing page upon clicking immediately.</li>
+					
+						<li><strong>Enable Featured Overlays</strong>: Whether or not to show the image bubble on featured listings in the map.</li>
+					
+						<li><strong>Initial Zool</strong>: Initial zoom of your map</li>
+					
+						<li><strong>Map Type</strong>: The type of your map.</li>
+					
+						<li><strong>Enable Geolocation</strong>: Whether or not to enable geolocation. Geolocation will find your users location and center the map where he is if he allows geolocation.</li>
+					
+						<li><strong>Initial Latitude Position</strong>: The initial latitude location of your map</li>
+					
+						<li><strong>Initial Longitude Position</strong>: The initial longitude location of your map</li>
+					
+						<li><strong>Enable Clustering</strong>: Whether or not to enable clustering with your pins</li>
+					
+						<li><strong>Enable Map Auto Height</strong>: If enabled the map will always occupy 80% of your users browser height.</li>
+					
+						<li><strong>Map Manual Height</strong>: If auto height is disabled this is the height of your map in pixels.</li>
+					
+						<li><strong>Enable Map Resizing</strong>: Whether or not to enable the user to resize the map.</li>
+					
+						<li><strong>Enable Zoom with Scroll Wheel</strong>: If enabled user will be able to zoom in and out using his scroll wheels</li>
+					
+						<li><strong>Enable Zoom Controls</strong>: Whether or not to enable zoom controls on the map.</li>
+					
+						<li><strong>Enable Get Directions</strong>: If enabled, user will be able to get directions to locations using google services. May not work in some countries.</li>
+					
+						<li><strong>Disable Business Points of Interests</strong>: Whether or not to remove business names from google maps that are there by default.</li>
+					
+						<li><strong>Black & White Map</strong>: If enabled this will display a black and white version of google maps.</li>
+						
+						<li><strong>Directions Travelmode</strong>: When user clicks get direction, which travel mode to display the directions for.</li>
+					
+					</ul>
+					
+					<p>These are all the options available for your map. Next let's get into styling</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Styling</h3>
+					
+					<div class="video" title="fRRNB-4Al94"><span>Watch the narrated tutorial on map styling</span></div>
+					
+					<p>Styling your map is easy and quick and is all done in the bpanel</p>
+					
+					<p>Navigate to your bPanel under <i>Map Options</i> > <i>Styling</i>. Here are the options</p>
+					
+					<ul>
+					
+						<li><strong>Overlays Background Color:</strong> The background color of your overlays. For mroe information on overlays read the next section</li>
+					
+						<li><strong>Overlays Color:</strong> The color of the text in your overlays.</li>
+					
+						<li><strong>Overlays Secondary Color:</strong> The secondary color of the text used in your overlays. This is a color used on less important items</li>
+					
+						<li><strong>Cluster Color:</strong> Color of your clustering. If enabled.</li>
+					
+						<li><strong>Default Pin:</strong> Default pin for your listings. This is overriden by the category pin, and custom pin defined in the listing.</li>
+					
+						<li><strong>Map Bar Background:</strong> The background color of the map bar - This is the bar located right under your map in the homepage displaying results find and a link to the list view.</li>
+					
+						<li><strong>Map Bar Color:</strong> Color of the text in your map bar.</li>
+					
+					</ul>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Overlays</h3>
+					
+					<div class="video" title="yiq6t8qkBIU"><span>Watch the narrated tutorial on overlays</span></div>
+					
+					<p>In this section we will cover overlays and how to set up their structure. By default overlays have a width and height set and this will varyon how many search fields you have images etc..</p>
+					
+					<p>It is recommended to play with this settings to make sure they accomodate all the information for all listings, so if at first you dont get it right, don't worry you can always change it.</p>
+					
+					<p>FIrst off let's go to our bPanel and set the options. Navigate to the section <i>Map Options</i> > <i>Overlay structure</i>. These are the options</p>
+					
+					<ul>
+					
+						<li><strong>Overlay Height: </strong>This is the total height of your overlay. Note that this is also the height of the image displayed within the overlay.</li>
+					
+						<li><strong>Overlay Width: </strong>This is the total width of your overlay including the image.</li>
+					
+						<li><strong>Overlay Image Width: </strong>This is the width of your image within your overlay.</li>
+					
+						<li><strong>Display Categories: </strong>Whether or not to display categories above the title in the overlay.</li>
+					
+						<li><strong>Display Excerpt: </strong>Whether or not to display the excerpt within the overlay.</li>
+					
+						<li><strong>Excerpt Length: </strong>The excerpt length in charactes within your overlay.</li>
+					
+					</ul>
+					
+					<p class="image"><img src="assets/009.jpg" /><span>Understand your overlay structure.</span></p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Advanced Geolocation</h3>
+					
+					<div class="video" title="KEogSeOmsaw"><span>Watch narrated video for the 1.2 Update with geolocation</span></div>
+					
+					<p>Since Spotfinder 1.20 we have introduced the Advanced Geolocation option. This allows users to find where they are in the map as well as letting users sort listings by distance.</p>
+					
+					<p>It's easy to set up, and we can do it in only a few clicks. The first thing you wanna do is go to your bPanel and under <i>Map Options</i> > <i>Geolocation Settings</i> and go through those options</p>
+					
+					<h4>The options</h4>
+					
+					<ul>
+					
+						<li><strong>Enable Geolocation: </strong>Choose whether or not SpotFinder should attempt to find the user's current location.</li>
+					
+						<li><strong>Redirect User To his Location: </strong>Choose whether or not when we have found the users location, we should center the map where he is.</li>
+					
+						<li><strong>Sort By Distance: </strong>Choose whether or not we enable the users to sort listings by distance. <span class="alert">If you are planning on having a large number of listings on your website, we highly recommend you turn this <strong>OFF</strong>. Doing queries with location is very hard on processing and queries may take considerably longer, specially if we have a large number of locations.</span></li>
+					
+						<li><strong>Kilometres or Miles: </strong>Choose whether you are using miles, or kilometres</li>
+					
+						<li><strong>Enable Radius Resizing: </strong>In case we have set a radius for a dropdown/dependent field, choose whether we should allow the user to resize the radius.</li>
+					
+						<li><strong>Resizing Icon: </strong>Your 40x40 resizing icon.</li>
+					
+					</ul>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Reviews System</h2>
+				
+				<div class="video" title="oSVRR5shb-s"><span>Watch the narrated tutorial on the reviews system</span></div>
+				
+				<p>Since Spotfinder 1.30 We have introduced the review system. A fully functional and integrated review system with SpotFinder. You can either have it activated or not. It is compatible with microdata so your listings will show up with appropriate ratings in google :)</p>
+				
+				<div>
+				
+					<h3>Enabling the Rating System</h3>
+					
+					<p>To enable the rating system all you have to do is go to the bPanel and you'll see that now we have a "Ratings Option" in there. All you have to do is enable the first option : Here are the options</p>
+					
+					<ul>
+					
+						<li><strong>Enable Rating System:</strong> Whether or not reviews are enabled in the theme</li>
+					
+						<li><strong>User must be registered and logged in to submit reviews:</strong> If switched on, pnly registered users will be able to submit reviews</li>
+					
+						<li><strong>Reviews must be reviewed to be published:</strong> If switched on, every review submitted needs to be approved by an admin in order to be published</li>
+					
+						<li><strong>Enable sorting of listings by rating:</strong> Whether to let the users sort listings by rating</li>
+					
+						<li><strong>Display reviews in listings page:</strong> Whether or not to display the reviews in the listings page</li>
+					
+						<li><strong>Display rating in overlays:</strong> Whether or not to display the reviews in the map overlay</li>
+					
+						<li><strong>Reviews per page:</strong> How many reviews to display per page in the listing page.</li>
+					
+						<li><strong>Default Avatar:</strong> The default avatar for users when the submit a review</li>
+					
+					</ul>
+					
+					<p>In the styling tab you can also change the background color of the review comment.</p>
+				
+				</div>			
+			
+			</div>
+			
+			<div>
+				
+					<h3>Review Fields</h3>
+					
+					<p>As seen in our live previews, you can also create as many review aspects as you want. This is very useful when the user can rate different aspects of your listings.</p>
+					
+					<p>In order to create your new fields just go to <i>Ratings</i> > <i>Rating Fields</i> in your dashboard and start creating your fields! You may also want to insert a desfcription to show it in the front end for your users :)</p>
+				
+				</div>	
+			
+			<div>
+				
+					<h3>Review Search Form</h3>
+					
+					<p>You can also create a rating search field to include it in your search functionality. This field does not take any attributes.</p>
+					
+				</div>	
+			
+			<div>
+			
+				<h2>Homepage</h2>
+				
+				<div class="video" title="HeHUceD1NMU"><span>Watch the narrated tutorial on your homepage</span></div>
+				
+				<p>In this section we're going to talk about on how to set up your homepage as well as the slider. Stay tuned as this is one of the most important pages of your website!</p>
+				
+				<div>
+				
+					<h3>Slider</h3>
+					
+					<p>By default, in spotfinder, you have 2 slider options. You have your map with your listings, or you can use the Revolution Slider plugin (provided with the theme).</p>
+					
+					<p>Either way here they are</p>
+					
+						<h4>Map Slider</h4>
+						
+						<p>By default SpotFinder has the map slider as the main slider. This is the default slider and all options are set in the Map Options.</p>
+					
+						<h4>Revolution Slider</h4>
+						
+						<p><span class="error">For information on how to use the revolution slider, please refer to the plugin's documentation in your download folder.</span></p>
+						
+						<p>You can also use the Revolution slider as your homepage slider. In order to do so follow these Instructions</p>
+						
+						<p><strong>1. Install the plugin</strong></p>
+						
+						<p>Start by installing the plugin that is included with your download file and activate it.</p>
+						
+						<p><strong>2. Create a new slider</strong></p>
+						
+						<p>Start by creating a new slider and copy the slider alias that you will be using as we need to assign it to our homepage.</p>
+						
+						<p><strong>3. Assign your slider alias</strong></p>
+						
+						<p>To assign your new slider to the homepage, copy the alias of the slider you just created and navigate to the admin panel and under the bPanel go to <i>Home Options</i> . <i>Slider Options</i>. You will see that there is a field for you to paste in your homepage slider alias.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Home Posts</h3>
+					
+					<div class="video" title="HeHUceD1NMU"><span>Watch the narrated tutorial on creating home posts.</span></div>
+					
+					<p>Your homepage is the base of your home page. All the content that comes below your slider is made out of home posts (apart from your footer and copyright bar). Creating Home posts are fairly easy and will often be made out of shortcodes. In this section we'll walk you though on how to set it up.</p>
+					
+					<h4>Creating Your Home Post</h4>
+					
+					<p>To create your first home post, in your admin panel, on your left sidebar navigate to <i>Home Posts</i> > <i>Add New</i></p>
+					
+					<p>You will note that there are a few new fields in there for you to fill out - The title is not used and only for organisation purposes.</p>
+					
+					<h4>Home Post Content</h4>
+					
+					<p>This is what is shown in your homepost. Here you can use shortcodes and HTML to make up each one of your home posts.</p>
+					
+					<h4>Background</h4>
+					
+					<p>Here you can set the background color of this homepost. This allows us to divide the homepost in sections like we have in our live previews.</p>
+					
+					<p>You can also add a top and bottom border to your homepost here. Set the color and the width of the border in pixels.</p>
+					
+					<h4>Featured Image</h4>
+					
+					<p>You can also assign a background iamge to your homepost. By setting a featured image, the featured image gets assigned as background image and is always bottom, center aligned (it will always align to the center and bottom of your homepost).</p>
+					
+					<h4>Notes</h4>
+					
+					<p>It is worth noting that home post you create will show up in the home page in sequential order. Have a look at the plugin section to find out how to re order it.</p>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Public Submissions</h2>
+				
+				<div class="video" title="Bi94MFEY3cI"><span>Watch the narrated tutorial on your public submissions</span></div>
+				
+				<p>Now this is where it gets fun! Public submissions are an easy way to monetise your website and let your users themselves submit their listings. In this section we're going to help you on how to set it up.</p>
+				
+				<p>As the administrator you'll be often notified when an user submits and listing, edits and deletes it. You get notified when:</p>
+				
+				<ul>
+				
+					<li><strong>There is a submission: </strong>Whenever an user submits a listing straight away or for review</li>
+				
+					<li><strong>There is an edit: </strong>Whenever an user edits a published listing.</li>
+				
+					<li><strong>There is a payment: </strong>Whenever a payment goes through you get notified</li>
+				
+				</ul>
+				
+				<p>The user also get notified in some cases</p>
+				
+				<ul>
+				
+					<li><strong>When he registers: </strong>When he registers himself he gets an email (unless signed up via facebook)</li>
+				
+					<li><strong>When his submission is approved: </strong>When an admin approves his submission he gets notified about it.</li>
+				
+					<li><strong>When his submission expires: </strong>Whenever his submission expires, he gets an email saying that his submission is now a draft and he needs to submit it again.</li>
+				
+				</ul>
+				
+				<div>
+				
+					<h3>Options</h3>
+					
+					<p>First thign we need to do is set up the options for our listings. In this section we'll go through every option available</p>
+					
+					<p>Navigate to your bPanel and go to the section <i>Public Submissions</i></p>
+					
+					<h4>Main Settings</h4>
+					
+					<p>here are the main public submission settings.</p>
+					
+					<ul>
+					
+						<li><strong>Enable Public Submissions: </strong>Toggle this on/off to eanble or disable public submissions altogether</li>
+					
+						<li><strong>Enable Editing: </strong>Whether or not the user is able to edit his published listings.</li>
+					
+						<li><strong>Let users publish directly: </strong>Whether or not to let the users publish their submissions straight away without the need of reviewing by an administrator</li>
+					
+						<li><strong>Maximum Submissions per user: </strong>Maximum amount of listings an user can create - Whether they are published or not.</li>
+					
+					</ul>
+					
+					<h4>Limitations</h4>
+					
+					<p>In this section you are able to select what the user will be able to assign and see during his submission. Remember that if you want to charge the user for something, this has to be enabled here in order for it to show at all during his submission. here are the limitation settings.</p>
+					
+					<ul>
+					
+						<li><strong>Enable Multiple Categories: </strong>Whether or not the user are able to select more than one category when submitting his listing.</li>
+					
+						<li><strong>Enable Upload of Images: </strong>Whether or not the user is able to upload images at all when submitting his listing</li>
+					
+						<li><strong>Enable Featured Selection: </strong>Whether or not the user is able to select his submission as featured when submitting his listing.</li>
+					
+						<li><strong>Enable Tags: </strong>Whether or not the user is able to assign tags for his lsitings when submitting his listing</li>
+					
+						<li><strong>Maximum Tags per Spot - FREE: </strong>Maximum number of tags the user is able to assign to his submission for free</li>
+					
+						<li><strong>Maximum Images per Spot - FREE: </strong>Maximum number of images the user is able to upload to his submission for free</li>
+					
+						<li><strong>Enable Contact Form: </strong>Whether or not the user is able to enable the contact form in his listing. <strong>Contact forms are sent straight to the user by email.</strong></li>
+					
+						<li><strong>Enable Custom Fields: </strong>Whether or not the user is able to assign custom fields for his lsitings when submitting his listing</li>
+					
+						<li><strong>Enable Custom Pin: </strong>Whether or not the user is able to assign a custom pin for his lsiting when submitting his listing</li>
+					
+						<li><strong>Custom Fields Description: </strong>The description of your custom fields in the submit new listing page.</li>
+					
+					</ul>
+					
+					<h4>Prices</h4>
+					
+					<p>In this section you are able to set prices for certain default thigns during the submission. Fields are withouth any dolalr signs and number/dots only.</p>
+					
+					<p><span class="alert">To not charge for something - leave it as blank or 0</span></p>
+					
+					<ul>
+					
+						<li><strong>Price per submission: </strong>Price the user will have to pay in order to submit his listing at all. He is not able to submit it for listing until this is paid.</li>
+					
+						<li><strong>Expiry date in days: </strong>This is how long his listing will be active for once published. <span class="alert">Expired listings are set as a 'draft' and user has to submit them again (and pay if they have to)</span></li>
+					
+						<li><strong>Price for featured selection: </strong>How much to charge the user to allow him to set his submission as featured.</li>
+					
+						<li><strong>Price for extra images: </strong>How much to charge the user to allow him to upload more images.</li>
+					
+						<li><strong>Number of extra images: </strong>Total number of images the user will be able to upload after paying for the extra.</li>
+					
+						<li><strong>Price for extra tags: </strong>How much to charge the user to allow him to assign more tags.</li>
+					
+						<li><strong>Number of extra tags: </strong>Total number of tags the user will be able to assign to his listing after paying for the extra.</li>
+					
+						<li><strong>Price for custom pin: </strong>How much to charge the user to allow him to assign a custom pin for his listing.</li>
+					
+						<li><strong>Price for custom fields: </strong>How much to charge the user to allow him to assign custom fields to his submission.</li>
+					
+						<li><strong>Price for contact form: </strong>How much to charge the user to allow him to enable a contact form in his listing.</li>
+					
+					</ul>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Submissions Page</h3>
+				
+					<div class="video" title="q8l1X9C3WYc"><span>Watch the narrated tutorial on your submissions page</span></div>
+					
+					<p>Now that we have set our options we can create our submissions page. Creating our submissions page is as easy as creating our listings page.</p>
+					
+					<h4>1. Create a new page</h4>
+					
+					<p>IN youradmin panel go to <i>Pages</i> > <i>Add New</i>. Fill in your title with the name of the page you want to create. Usually I like to call it "Submit" or something along those lines.</p>
+					
+					<p>Also do'nt forget to select your page layout and set up your fancy header if you'd like to.</p>
+					
+					<p><span class="alert">ALso, note that differently from our listings page, if you insert data in your content area, it will be displayed above the login/register form.</span></p>
+					
+					<h4>2. Assign your template</h4>
+					
+					<p>Once you set up your page's layout it's time to select your template. For this page we'll use the <i>Submti</i> Template.</p>
+					
+					<p class="image"><img src="assets/00099.jpg" /><span>Set up your submit template</span></p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Paypal Credentials</h3>
+					
+					<div class="video" title="Hm6xysbJli4"><span>Watch the narrated tutorial on paypal credentials</span></div>
+					
+					<p>In this section we will guide you through on how to set up paypal with your website.</p>
+					
+					<span class="error">In order for you to be able to receive payments with paypal, you must have a verified business or premier paypal account.</span>
+					
+					<p>There are two types of credentials, Sandbox and live credentials. Sandbox credentials lets you test and do payments in a sandbox mode. They aren't actually real but lets you test your website.</p>
+					
+					<h4>Sandbox Credentials</h4>
+					
+					<p><span class="alert">Sandbox credentials will not actually process payments. This is a test mode and should not be used in your website when it's live.</span></p>
+					
+					<p>Make your way to http://developer.paypal.com and login clicking the button "Login with paypal" at the top right corner of the page. Type in your REAL paypal details and you will be redirected.</p>
+					
+					<p>Once you are logged in, on the main menu at the top go to "Dashboard". From the dashboard and then click "Get your test credentials"</p>
+					
+					<p class="image"><img src="assets/00098.jpg" /><span>Get your PayPal API Credentials.</span></p>
+					
+					<p>Once you click that, you'll be redirected to your sandbox credentials. What you want to do now is click "Sandbox Acounts" on your left sidebar. You should then see a page with your paypal ID. Click that and then click "Profile"</p>
+					
+					<p class="image"><img src="assets/00099.jpg" /><span>Your sandbox account.</span></p>
+					
+					<p>In the pop-up that comes up (there's a small glitch there, sometimes you have to click once, close than click another time). Click on the API Credentials tab and you should get your SandBox API Credentials.</p>
+					
+					<p class="image"><img src="assets/000991.jpg" /><span>Fill out your credentials.</span></p>
+					
+					<p>Copy the three fields and paste them in your bpanel under <i>Public Submissions</i> > <i>Payment Info</i></p>
+					
+					<p>Finish the last two fields with your 3-Character Currency Code <a href="https://cms.paypal.com/mx/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_api_nvp_currency_codes">(You can get this from this page)</a>. Here are the other fields:</p>
+					
+					<ul>
+					
+						<li><strong>Payment Name: </strong>Name of the payment when it's processed in paypal</li>
+					
+						<li><strong>Pricing Sign - Before Price: </strong>Any dollar/currency signs that you might want to add in the spotfinder checkout (after the price)</li>
+					
+						<li><strong>Pricing Sign - After Price: </strong>Any dollar/currency signs that you might want to add in the spotfinder checkout (after the number)</li>
+					
+					</ul>
+					
+					<h4>Live Credentials</h4>
+					
+					<p><span class="error">In order to get your live credentials you MUST have either a BUSINESS or PREMIER Paypal account. This will not work with Personal accounts.</span></p>
+					
+					<p>To get your live API Credentials <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_login-api-run">Login in with your Paypal username and password here</a></p>
+					
+					<p>You should now see your API Credentials. If not make sure you have a BUSINESS or PREMIER Paypal account.</p>
+					
+					<p>Copy the three fields and paste them in your Custom Admin Panel under "Public Submissions > Payment Info".</p>
+					
+					<p>Finish the last two fields with your 3-Character Currency Code <a href="https://cms.paypal.com/mx/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_api_nvp_currency_codes">(You can get this from this page)</a>. Here are the other fields:</p>
+					
+					<ul>
+					
+						<li><strong>Payment Name: </strong>Name of the payment when it's processed in paypal</li>
+					
+						<li><strong>Pricing Sign - Before Price: </strong>Any dollar/currency signs that you might want to add in the spotfinder checkout (after the price)</li>
+					
+						<li><strong>Pricing Sign - After Price: </strong>Any dollar/currency signs that you might want to add in the spotfinder checkout (after the number)</li>
+					
+					</ul>
+					
+					<h4>Recurring Payments</h4>
+					
+					<div class="video" title="yfq-d1JxZnw"><span>Watch the narrated tutorial on recurring payments</span></div>
+					
+					<p>From spotfinder 1.10 Spotfinder now has recurring payments for submissions and featured selection.</p>
+					
+					<p>You can enable recurring payments in the custom admin panel under <i>Public Submissions</i> > <i>Prices</i>. You'll note that there are two boxes there that let you enable recurring payments.</p>
+					
+					<p><span class="alert">Make sure you set the x mount of days so we can tell paypal how often to bill your customer.</span></p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Facebook Login</h3>
+					
+					<div class="video" title="2s1XFpe5lZE"><span>Watch the narrated tutorial on facebook login</span></div>
+					
+					<p>Facebook login is a great way to allow your users to quickly sign up with their facebook credentials. When the user signs up with facebook he is created his own username within spotfinder but using his credentials from facebook, allowing a quick smooth sign up / log in.</p>
+					
+					<p>Before you can let your users sign up via facebook , you need to create a facebook app for your website. In this section we'll go through that.</p>
+					
+					<h4>1. Log in to facebook developers and go to Apps</h4>
+					
+					<p><a href="https://developers.facebook.com/">Go to Facebook Developers and log in with your facebook account</a></p>
+					
+					<p>Once logged in, go to the apps panel</p>
+					
+					<p class="image"><img src="assets/00992.jpg" /><span>Go in your facebook apps panel.</span></p>
+					
+					<h4>2. Create a new app</h4>
+					
+					<p>Once in the apps panel, start by click on Add new app on the top right corner of the page</p>
+					
+					<p>Type in your App name, your namespace (which is the url for your facebook app), your category and subcategory. Web hosting is not needed.</p>
+					
+					<p class="image"><img src="assets/00993.jpg" /><span>Create your new app</span></p>
+					
+					<h4>3. Set your app domain and Wbsite with Facebook Login</h4>
+					
+					<p>Now that you have created you need to enter your site url (this is the actualy domain of your website where facebook login will be available ie. domain.com) after you select the option "Website with facebook login". Also make sure you disable Sandbox mode, otherwise only you will be able to log in with facebook.</p>
+					
+					<p class="image"><img src="assets/00994.jpg" /><span>Fill in the app details</span></p>
+					
+					<h4>4. Update your App ID in the bPanel</h4>
+					
+					<p>Once this is all done, copy your app ID from the facebook app page and paste that in your bPanel under <i>Public Submissions</i> > <i>Facebook Login</i></p>
+					
+					<p class="image"><img src="assets/00995.jpg" /><span>Update your facebook app id</span></p>
+					
+					<p>All done, public submissions should be set now.</p>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Submission Fields</h2>
+				
+				<div class="video" title="mar2tFetJwA"><span>Watch the narrated tutorial on submission fields</span></div>
+				
+				<p>Submission fields are a great way to include fields in your submission form that wouldn't be there. You can then include extra information such as websites, telehpoe numbers and more.</p>
+				
+				<p>Note that unline Search fields, Submission fields can not be searched are mainly for data and information purposes.</p>
+				
+				<p>The first thing that you need to know is that Custom Submission Fields have 3 types:</p>
+				
+				<ul>
+				
+					<li><strong>Text: </strong>Text fields allow users to enter any sort of text. These can include HTML if you choose to</li>
+				
+					<li><strong>Select: </strong>Select Fields are a set of predefined values displayed as a dropdown list.</li>
+				
+					<li><strong>Files: </strong>Files give the users an opportunity to upload files. Files accepted are PDF, TXT, RTF, .DOC, .DOCX, .PPS, .PPSX, .XLS and etc.</li>
+				
+				</ul>
+				
+				<div>
+				
+					<h3>Adding New Fields</h3>
+					
+					<p>Adding new submission fields is as easy as adding a new post. Start by going to your dashboard and going under <i>Submission Fields</i> and click <i>Add New</i></p>
+					
+					<p>You will note that there a few fields that need to be set. First off set your <i>Title</i> and <i>Content</i>. Your content is the description that shows in the front endwhen the user is submitting.</p>
+					
+					<p>In your Submissions Field Attributes ypou will see a few tabs.</p>
+					
+					<ul>
+					
+						<li><strong>Field Type: </strong>Set your field type here</li>
+					
+					</ul>
+					
+					<h4>Field Attributes</h4>
+					
+					<ul>
+					
+						<li><strong>Required: </strong>If set to true, user will be required to fill out this field before submitting his submission</li>
+					
+						<li><strong>Categories: </strong>Set certain categories. If you set a specific category the user will only be able to set that field in case he has selected the category you have selected.</li>
+						
+						<li><strong>Submission Page Position</strong>: This is where the submission field will be located in the submission form.</li>
+						
+						<li><strong>Allow HTML (text only): </strong>Whether HTML is allowed when filling out this field.</li>
+						
+						<li><strong>Select Values (select only): </strong>Your list of predefined values for the select field</li>
+						
+						<li><strong>Number of Files (files only): </strong>How many files the user will be able to upload per listing.</li>
+					
+					</ul>
+					
+					<h4>Front-End Options</h4>
+					
+					<ul>
+					
+						<li><strong>Single Listing Page Position: </strong>Where to display this field in the listing page.</li>
+					
+						<li><strong>Front End Markup: </strong>The markup of this field in the front end. This follows the same format as search fields.</li>
+					
+					</ul>
+					
+					<p>Once you have created submission fields they should be displayed in the submission form as well as single listing pages.</p>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Pages</h2>
+				
+				<div class="video" title="k9j3yTuYsow"><span>Watch the narrated tutorial on pages</span></div>
+				
+				<p>Pages in SpotFinder are pretty standard, however there are a couple of features we'll talk about.</p>
+				
+				<div>
+				
+					<h3>Add New Pages</h3>
+					
+					<p>Adding new pages is pretty standard and you can start by going into your Dashboarda and clicking <i>Pages</i> > <i>Add New</i></p>
+					
+					<p>The add new page is pretty standard, however there is an area below the content and shortcode generator I would like to talk about:</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Page Template</h3>
+					
+					<p>At the top right of your add new page layout you will see the page template section. Here you can choose the position of your sidebar for that page. By default it is set to right, but you can also chage the default position within the bPanel.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Main Options</h3>
+					
+					<p>There are two fields in the main options panel, they are both related to the title of the page:</p>
+					
+					<ul>
+					
+						<li><strong>Display Title: </strong>Whether or not to show the title at the top of the content. <span class="alert">Note that this is not your fancy header</span></li>
+					
+						<li><strong>Header Slogan: </strong>The slogan is a secondary text that is displayed right underneath your main title and usually works as a descriptive, marketing part of your title</li>
+					
+					</ul>
+					
+					<p class="image"><img src="assets/00997.jpg" /><span>Display Title and Slogan</span></p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Fancy Header</h3>
+					
+					<p>Fancy headers are a cool way to add a design touch to your page. Unlike the normal titles, Fancy Headers have a background of your choice a make quite a big impact in your page.</p>
+					
+					Next to the <i>Main Options</i> tab, you'll see the Fancy HEader Tab
+					
+					<ul>
+					
+						<li><strong>Header Background:</strong> The background image for your fancy header. This gets stretched no matter how big the resolution is. Defaults to the one under <i>Content Options</i> in your bPanel.</li>
+					
+						<li><strong>Fancy Header Slogan:</strong> The slogan for your fancy header. Just like the normal title this located right under the main title and works as a secondary title.</li>
+					
+						<li><strong>Header Title:</strong> The main title of your fancy header</li>
+					
+						<li><strong>Color:</strong> Color of your fancy header. This is very useful because it depends on the color of your background image.</li>
+					
+					</ul>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Blog/News</h2>
+				
+				<div class="video" title="L4e2pX1fra0"><span>Watch the narrated tutorial on your blog</span></div>
+				
+				<p>SpotFinder uses normal posts for your blog/news area. In order to create a news section within SpotFinder, first we need to create our blog page and then start adding new posts to it. Let us start by adding aour Blog Page</p>
+				
+				<div>
+				
+					<h3>Blog Page</h3>
+					
+					<p>In order for our posts to be displayed, we need a page to display them with the <i>Blog</i> template.</p>
+					
+					<p>To do that go to your dashboard and add a new page by going into <i>Pages</i> > <i>Add New</i></p>
+					
+					<p>The content is not used but you might want to change your Title Options and maybe add a fancy header. Now we just need to set the template to <i>Blog</i>. View the image below</p>
+					
+					<p class="image"><img src="assets/00998.jpg" /><span>Set your blog template</span></p>
+					
+					<p>Once you do that we can publish that and start adding our posts.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Creating posts</h3>
+					
+					<p>Creating posts for your news/blog is fairly easy but there are a couple of extra things that I recommend doing.</p>
+					
+					<p>To start creating a new post, navigate to your dashboard and under <i>Posts</i> > <i>Add New</i> we can start a new post</p>
+					
+					<p>Fill in the basic details sucj ash title, content, tags and categories.</p>
+					
+					<p>Note that here you also have the option to add a fancy header and hide the title.</p>
+					
+					<h4>Featured Image</h4>
+					
+					<p>You will note that in some of our posts in the live previews we have a big image as the thumbnail for the post. You can add one by setting a featured image. In order to do so, click on the bottom right sidebar of your post page and click <i>Set Featured Image</i>. YOu can upload a new one or select one you have already uplaoded and just click <i>Set Featured Image</i></p>
+					
+					<p class="image"><img src="assets/00999.jpg" /><span>Set your featured image</span></p>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Footer</h2>
+					
+					<div class="video" title="o-0DvoT1_1o"><span>Watch the narrated tutorial on the footer</span></div>
+				
+				<p>The footer in spotfinder is really use to use and is a widgetised area. Before we set it let's go through our options in the bPanel</p>
+				
+				<div>
+				
+					<h3>Options</h3>
+					
+					<p>In the bPanel navigate to <i>Footer Options</i></p>
+					
+					<h4>Main Options</h4>
+					
+					<p>Here is where you can set your column layout for your column template. The column template is easy to use. You must use one of the options from our column's shortcode and one per line, and they are <i>one-half</i>, <i>One-third</i>, <i>two-thirds</i>, <i>one-fourth</i>, <i>three-fourths</i>, <i>one-fifth</i>, <i>two-fifths</i>, <i>three-fifths</i>, <i>four-fifths</i>, <i>one-sixth</i>, <i>five-sixths</i></p>
+					
+					<p>Here you can also set what shows in your copyright bar and if it is shown at all.</p>\
+				
+				</div>
+				
+				<div>
+				
+					<h3>Styling</h3>
+					
+					<p>In the next two tabs you can set the styling for your footer.</p>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Other Options</h2>
+				
+				<p>In spotfinder there are many features that are very useful and in this section we'll go through some of them</p>
+				
+				<div>
+				
+					<h3>Styling</h3>
+					
+					<div class="video" title="LSuGulAOv88"><span>Watch the narrated tutorial on styling</span></div>
+					
+					<p>As stated in our marketing, Spotfinder comes with a color editor out of the box so you can easily style your theme. Most of the styling is done throug hthe bPanel apart from things that are set individually such as category pins, fancy headers by page and so forth.</p>
+					
+					<p>We'll go through the styling options in the bPanel now</p>
+					
+					<h4>Header Styling</h4>
+					
+					<p>The header styling takes care of the styling of your header, which is the top area of your theme.</p>
+					
+					<h4>Content Styling</h4>
+					
+					<p>This is the main styling of your content area which is where most of your website is located.</p>
+					
+					<ul>
+					
+						<li><strong>General Styling:</strong> This is the general styling of your website, here you cna set your background color for your page as well as the primary color of your buttons and so forth.</li>
+					
+						<li><strong>Forms Styling:</strong> Here you can style all your forms inputs <span class="alert">Note that the inputs in the search bar for your listings filters is set in the Search Styling</span></li>
+					
+					</ul>
+					
+					<h4>Search Styling</h4>
+					
+					<p>This is where you set thr styling of your search bar, where the user clicks to filter down his listings. Background colors, inputs background and so forth.</p>
+					
+					<h4>Map Styling</h4>
+					
+					<p>Your map styling has more to do with the overlay colors as well as your map bar styling</p>
+					
+					<h4>Footer Styling</h4>
+					
+					<p>Style the color and background colors of your footer.</p>
+					
+					<h4>Typography</h4>
+					
+					<p>The typography section is an extensive section where you cna change the typeface of your headers and set whether you'd like to use google and more.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Custom Sidebars</h3>
+					
+					<div class="video" title="08WEpQxYGkc"><span>Watch the narrated tutorial on your custom sidebars</span></div>
+					
+					<p>In Spotfinder you can set unique sidebars and assign them to different pages. This means that you can have different sidebar content in different pages. There are two way of adding custom sidebars.</p>
+					
+					<h4>Creating new sidebars</h4>
+					
+					<p>To create new sidebars you can either jsut select <i>(add new sidebar)</i> when selecting your new sidebar in the <i>Pages</i> panel or you can do that through the bPanel under <i>Content Options</i> > <i>Custom Sidebars</i></p>
+					
+					<h4>Assigning Sidebars</h4>
+					
+					<p>To assign a custom sidebar to one of your pages or post, simply select it at the bottom of your right sidebar in the dashboard when adding/editing a page or a post</p>
+					
+					<h4>Deleting Sidebars</h4>
+					
+					<p>To delete a custom sidebar, in the bPanel under <i>Content Options</i> > <i>Custom Sidebars</i> you can then select the sidebars you want and hit <i>Remove Sidebars</i></p>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Shortcodes</h2>
+				
+				<p>Shortcodes in Spotfinder are very use to use and you can find a full list of them in our live previews. However There is a couple of things we need to talk about:</p>
+				
+				<div>
+				
+					<h3>Shortcode Generator</h3>
+					
+					<p>The shortcode generator is an easy to way to easily implement shortcodes into your pages without having to look into the documentation. It is located right under your content area when adding/editing pages and posts.</p>
+					
+					<p>You can just select the shortcode you want and the generator will walk you the process of filling in the attributes.</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Spots Shortcode</h3>
+					
+					<p>There is a shortcode that was built specifically for SpotFinder. It displays a slider or a list of listings and it takes several attributes. You can use the shortcode generator to use this shortcode, Just wanted to point out that it is there.</p>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Widgets</h2>
+				
+				<p>Spotfinder counts with a number of custom widgets that you can use with our theme. Obviously you can use third party widgets but in this section we will cover the widgets that are shipped out with the theme.</p>
+				
+				<div>
+				
+					<h3>Widget Areas</h3>
+					
+					<p>There are several widget areas within spotfinder that you can add in your widgets. Here they are</p>
+					
+					<p>Sidebars that are not listed here are either custom sidebars and/or footer widget areas that you set in the admin panel</p>
+					
+					<ul>
+					
+						<li><strong>General Sidebar:</strong> This is the all-site sidebar. Whenever you want to display something that will be displayed in every single sidebar within your theme this is where you will drop widgets</li>
+					
+						<li><strong>Page Sidebar:</strong> Displayed in pages when using the default sidebar</li>
+					
+						<li><strong>404 Sidebar:</strong> Displayed in your 404 - Not found page</li>
+					
+						<li><strong>Search Sidebar:</strong> Displayed when the user uses a search field for spotfinder</li>
+					
+						<li><strong>Listings Sidebar:</strong> Displayed in your listings page (when using a sidebar)</li>
+					
+						<li><strong>Spots Sidebar:</strong> Displayed in the sidebar that shows in the single spot page</li>
+					
+						<li><strong>Blog/News Sidebar:</strong> Displayed in your blog page</li>
+					
+					</ul>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Widgets</h3>
+				
+				</div>
+			
+			</div>
+			
+			<div>
+			
+				<h2>PSD Files</h2>
+				
+				<p>All PSD files are included with the theme although some images have been removed due to licensing purposes. Feel free to use the PSDs included for nay purpose</p>
+			
+			</div>
+			
+			<div>
+			
+				<h2>Other info</h2>
+				
+				<div>
+				
+					<h3>Useful Plugins</h3>
+					
+					<p>There is a few third party plugins that are very useful with Spotfinder. Here they are</p>
+					
+					<h4>Post Types Order</h4>
+					
+					<p>This plugin is specially useful hwne you are re ordering your search fields. Get it from the repository or http://www.nsp-code.com/</p>
+					
+					<h4>Category Order and Taxonomy Terms Order</h4>
+					
+					<p>Same as before this plugin is used to re order your categories and taxonomies. Useful for reordering your categories for dropdowns. Get it from the repository or at http://www.nsp-code.com/</p>
+				
+				</div>
+				
+				<div>
+				
+					<h3>Support</h3>
+					
+					<p>For support please visit http://theme.btoa.com.au/support</p>
+				
+				</div>
+			
+			</div>
+            
+            	<div class="clear"></div>
+                <!-- /.clear/ -->
+            
+            </div>
+            <!-- /.wrapper/ -->
+        
+        </div>
+        <!-- /#content/ -->
+    
+    </body>
+    <!-- BODY ENDS -->
+
+</html>
