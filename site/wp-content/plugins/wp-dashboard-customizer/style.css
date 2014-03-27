@@ -1,0 +1,170 @@
+.dbc_panel {
+  border-top: 1px solid #DDDDDD;
+  color: #464646;
+  font-family: Verdana,Geneva,sans-serif;
+  padding: 10px 20px !important;
+}
+.dbc_panel input[type="checkbox"] {
+  margin: 2px 40px 0px 0px;
+}
+#dbc_option_form h2 {
+  margin-bottom: 15px;
+}
+.button-primary.bdc_submit {
+  float: right;
+  margin: 2px 10px;
+  padding: 0 15px 3px;
+}
+.dbc_select {
+  margin: 10px 0;
+  overflow: hidden;
+}
+.dbc_select_label {
+  float: left;
+  margin-top: 3px;
+  width: 350px;
+}
+.dbc_select select {
+  background: none repeat scroll 0 0 #F7F7F7;
+  border-radius: 2px 2px 2px 2px !important;
+  cursor: pointer;
+  float: left;
+  margin: 0;
+  width: 275px;
+}
+.dbc_select select:focus{
+  background: none repeat scroll 0 0 #FFFFFF;
+}
+.dbc_select_des {
+  color: #999999;
+  display: inline-block;
+  float: left;
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-top: 3px;
+}
+.dbc_panel_head {
+  background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+  background: -moz-linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+  background: -webkit-linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+  background: -o-linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+  background: -ms-linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+  background-color:#F9F9F9;
+  border-bottom: medium none;
+  font-size: 14px;
+  height: 31px;
+  line-height: 1.3em;
+  overflow: hidden;
+  padding: 7px 7px 8px;
+}
+.widefat.bdc_panel {
+  border: 1px solid #E1E1E1;
+  display: block;
+  margin-bottom: 15px;
+  overflow: hidden;
+  width: 1100px;
+}
+.dbc_title {
+  display: inline-block;
+  font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1;
+  margin: 5px 0 0;
+  padding: 3px 10px;
+  text-shadow: 0 1px 0 white;
+}
+
+
+#customize_admin_bar_toggle,#customize_dashbord_toggle,#customize_user_permission_toggle,#customize_login_page_toggle,#post_view_settings_toggle{float:left}
+#customize_dashbord_body,#customize_admin_body,#customize_user_permission_body,#customize_login_page_body,#post_view_settings_body {
+  display: none;
+}
+.dbc_panel .upload {
+  display: block;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.preview-upload {
+  border: 1px solid #DDDDDD;
+  clear: left;
+  display: block;
+  float: left;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  max-width: 333px;
+  overflow: hidden;
+  padding: 3px;
+}
+#dbc_upload_input {
+  background: none repeat scroll 0 0 #F7F7F7;
+  border: 1px solid #DDDDDD;
+  border-radius: 2px 2px 2px 2px;
+  float: left;
+  margin-right: 5px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 5px;
+  width: 345px;
+}
+#dbc_upload_input:focus {
+background:#FFFFFF
+}
+.dbc_panel .button.button-upload {
+  border: 1px solid #DDDDDD;
+  border-radius: 2px 2px 2px 2px;
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  height: 27px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 2px 14px;
+}
+.dbc_panel textarea {
+  background: none repeat scroll 0 0 #F7F7F7;
+  border-radius: 2px 2px 2px 2px;
+  height: 150px;
+  resize: none;
+  width: 340px;
+  margin-bottom: 15px;
+}
+.dbc_panel textarea:focus {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #CCCCCC;
+}
+.dbc_panel_head .inactive {
+  background: url("images/fold.png") no-repeat scroll -2px -2px transparent;
+  height: 29px;
+  margin-left: 10px;
+  margin-right: 8px;
+  text-indent: -9999px;
+  width: 36px;
+}
+.dbc_panel_head .active {
+  background: url("images/fold.png") no-repeat scroll -2px -35px transparent;
+  border: medium none;
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 8px;
+  margin-top: 8px;
+  outline: medium none;
+  text-indent: -9999px;
+  width: 36px;
+}
+.codes label {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 345px;
+}
+.codes code {
+  background: none repeat scroll 0 0 #F0F0F0;
+  border: 1px solid #E1E1E1;
+  margin: 0;
+  padding: 2px 20px;
+}
+.codes {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

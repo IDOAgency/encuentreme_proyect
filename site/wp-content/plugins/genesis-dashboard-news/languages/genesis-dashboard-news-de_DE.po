@@ -1,0 +1,236 @@
+# This German Language File: Copyright (C) 2011-2012 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Genesis Dashboard News Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer Genesis Framework, Genesis Child Themes und Genesis Plugins
+# sowie WordPress Plugins und Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesis Dashboard News v1.6.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/genesis-dashboard-news\n"
+"POT-Creation-Date: 2012-05-03 00:50+0200\n"
+"PO-Revision-Date: 2012-11-25 14:25+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:81
+msgid "Genesis News Planet"
+msgstr "Genesis News Planet"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:52
+msgid "RSS/Atom Feed Genesis News Planet"
+msgstr "RSS-/ Atom-Feed des Genesis News Planet"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:52
+msgid "RSS Feed"
+msgstr "RSS-Feed"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:56
+msgid "http://genesisthemes.de/en/wp-plugins/"
+msgstr "http://genesisthemes.de/plugins/"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:56
+msgid "Genesis &amp; WordPress Plugins"
+msgstr "Genesis- und WordPress-Plugins"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:56
+msgid "Genesis Plugins"
+msgstr "Genesis-Plugins"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:58
+msgid "http://genesisthemes.de/en/genesis-child-themes/"
+msgstr "http://genesisthemes.de/themes/"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:58
+msgid "Free &amp; Premium Child Themes for Genesis Framework"
+msgstr "Freie &amp; Premium Child Themes für das Genesis Framework"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:58
+msgid "Genesis Themes"
+msgstr "Genesis-Themes"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:144
+msgid "How many items would you like to display?"
+msgstr "Wieviele Einträge sollen angezeigt werden?"
+
+#@ genesis-dashboard-news
+#. translators: plugin header field 'Name'
+#: genesis-dashboard-news.php:0
+#: includes/gdbn-help.php:71
+#: includes/gdbn-help.php:99
+#: includes/gdbn-help_bewaehrt.php:58
+#: includes/gdbn-help_bewaehrt.php:75
+msgid "Genesis Dashboard News"
+msgstr "Genesis Dashboard-Neuigkeiten"
+
+#@ genesis-dashboard-news
+#. translators: plugin header field 'Author'
+#: genesis-dashboard-news.php:0
+msgid "David Decker - DECKERWEB"
+msgstr "David Decker - DECKERWEB.de"
+
+#@ genesis-dashboard-news
+#. translators: plugin header field 'AuthorURI'
+#: genesis-dashboard-news.php:0
+msgid "http://deckerweb.de/"
+msgstr "http://deckerweb.de/"
+
+#@ genesis-dashboard-news
+#. translators: plugin header field 'PluginURI'
+#: genesis-dashboard-news.php:0
+msgid "http://genesisthemes.de/en/wp-plugins/genesis-dashboard-news/"
+msgstr "http://genesisthemes.de/plugins/genesis-dashboard-news/"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:101
+#: includes/gdbn-help_bewaehrt.php:59
+#, php-format
+msgid "Just a simple dashboard news widget regarding the %1$sGenesis Theme Framework%2$s - all plugin info and support could be found at %3$sGenesisThemes.de%4$s. Thanx for using this plugin! <em>&mdash;David Decker of deckerweb.de</em>"
+msgstr "Ein schlichtes Dashboard-Neuigkeiten-Widget rund um das %1$sGenesis Theme Framework%2$s - alle Plugin-Infos sowie Hilfe gibt es bei %3$sGenesisThemes.de%4$s. Danke für die Benutzung dieses Plugins! <em>&mdash;David Decker von deckerweb.de</em>"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-admin.php:47
+msgid "Go to the Dashboard page"
+msgstr "Zum WordPress Dashboard gehen"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-admin.php:47
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-admin.php:75
+#: includes/gdbn-help.php:105
+#: includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:63
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "FAQ"
+msgstr "FAQ - Häufige Fragen"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-admin.php:76
+#: includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Support"
+msgstr "Hilfe & Unterstützung (Support)"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-admin.php:79
+#: includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Donate"
+msgstr "Spenden"
+
+#@ genesis-dashboard-news
+#. translators: plugin header field 'Description'
+#: genesis-dashboard-news.php:0
+msgid "Adds a new dashboard widget to your WordPress Admin Dashboard that pulls in items of the News Planet for the Genesis Framework and its ecosystem."
+msgstr "Dieses Plugin fügt ein neues Dashboard-Widget im WordPress-Adminbereich hinzu, um aktuelle Neuigkeiten rund um das Genesis Framework und dessen Community bzw. Ökosystem anzuzeigen."
+
+#@ genesis-dashboard-news
+#: includes/gdbn-dashboard-widget.php:54
+#: includes/gdbn-help.php:106
+#: includes/gdbn-help_bewaehrt.php:64
+msgid "Find then Create. Your Genesis Framework Search Engine."
+msgstr "Finden, dann Erschaffen. Die Genesis Framework Suchmaschine."
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:104
+#: includes/gdbn-help_bewaehrt.php:62
+msgid "Subscribe to the Genesis News Planet"
+msgstr "Den Genesis Nachrichten Planet abonnieren"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:104
+#: includes/gdbn-help_bewaehrt.php:62
+msgid "or via feed reader RSS/ATOM"
+msgstr "oder via Feed Reader RSS/ ATOM"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:105
+#: includes/gdbn-help_bewaehrt.php:63
+msgid "How to change the RSS cache lifetime in WordPress which also effects this plugin's dashboard widget..."
+msgstr "Wie die RSS-Cache-Lebensdauer in WordPress geändert werden kann, die auch das Dasboard Widget des Plugins beeinflusst..."
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:109
+#: includes/gdbn-help_bewaehrt.php:67
+msgid "Important plugin links:"
+msgstr "Wichtige Plugin-Links:"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:104
+#: includes/gdbn-help_bewaehrt.php:62
+msgid "via FriendFeed service"
+msgstr "via FriendFeed Dienst"
+
+#@ genesis-dashboard-news
+#. translators: plugin header field 'Version'
+#: genesis-dashboard-news.php:0
+msgid "1.6.1"
+msgstr "1.6.1"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-admin.php:78
+#: includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:99
+#: includes/gdbn-help_bewaehrt.php:58
+msgid "Plugin"
+msgstr "Plugin"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Plugin website"
+msgstr "Plugin-Website"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-admin.php:77
+#: includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Code Snippets for Customizing"
+msgstr "Codeschnipsel zum Anpassen"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-admin.php:77
+#: includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Code Snippets"
+msgstr "Codeschnipsel"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:80
+msgid "More about the plugin author"
+msgstr "Mehr über den Plugin-Autor"
+
+#@ genesis-dashboard-news
+#: includes/gdbn-help.php:81
+msgid "Social:"
+msgstr "Vernetzen:"
+

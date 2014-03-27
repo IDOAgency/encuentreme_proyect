@@ -1,0 +1,85 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+#admin-customizer-formwrapper{
+	border:none;
+	margin:15px 5px 5px 0px ;
+}
+
+p#footer-left img{
+  vertical-align: middle;
+  margin-right:10px;
+}
+
+#admin-customizer-formwrapper .form-table label.box{
+    float: left;
+}
+#admin-customizer-formwrapper .form-table input[type="radio"]{
+    margin:0px 5px 0px 0px;
+}
+
+#admin-customizer-formwrapper .form-table span.radio-text{
+    padding:0px 20px 0px 0px;
+}
+#admin-customizer-formwrapper ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+#admin-customizer-formwrapper ul li{
+    display: inline;
+    border: solid;
+    border-color: #DFDFDF #DFDFDF #FFFFFF;
+    border-width: 1px 1px 0 1px;
+    margin: 0 5px 0 0px;
+    padding:15px 0px 10px 0px;
+     border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: auto;
+    overflow: hidden;
+
+}
+
+#admin-customizer-formwrapper ul li.ui-tabs-active{
+    background: white;
+}
+#admin-customizer-formwrapper ul li.ui-tabs-active a{
+    color: #D54E21;
+}
+
+
+#admin-customizer-formwrapper .panel-container{
+    clear: both;
+    border-top: 1px solid;
+    border-color: #DFDFDF;
+    margin-top:2px;
+    padding: 10px;
+}
+
+
+#admin-customizer-formwrapper ul li a {
+    outline: none;
+    padding: 4px 10px 6px;
+    color: #AAAAAA;
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+#admin-customizer-formwrapper ul li a:hover {
+    color: #D54E21;
+}
+
+/************************************/
+.extra-buttons-wrapper{
+    margin-top: 15px;
+}
+.adns-reset-to-defaults {
+   background: linear-gradient(to bottom, #cc0000, #aa0000) repeat scroll 0 0 #dd0000 !important;
+   border-color: #aa0000 !important;
+   color: #FFFFFF !important;
+   text-shadow: none !important;
+}
+

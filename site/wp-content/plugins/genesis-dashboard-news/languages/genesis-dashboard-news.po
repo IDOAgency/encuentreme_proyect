@@ -1,0 +1,160 @@
+# This file is distributed under the same license as the Genesis Dashboard News package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2012-11-20 11:13:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Genesis Dashboard News\n"
+
+#: genesis-dashboard-news.php:0
+msgid "1.6.1"
+msgstr ""
+
+#: includes/gdbn-admin.php:78 includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Translations"
+msgstr ""
+
+#: includes/gdbn-help.php:99 includes/gdbn-help_bewaehrt.php:58
+msgid "Plugin"
+msgstr ""
+
+#: includes/gdbn-help.php:110 includes/gdbn-help_bewaehrt.php:68
+msgid "Plugin website"
+msgstr ""
+
+#: includes/gdbn-admin.php:77 includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Code Snippets for Customizing"
+msgstr ""
+
+#: includes/gdbn-admin.php:77 includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Code Snippets"
+msgstr ""
+
+#: includes/gdbn-help.php:80
+msgid "More about the plugin author"
+msgstr ""
+
+#: includes/gdbn-help.php:81
+msgid "Social:"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:52
+msgid "RSS/Atom Feed Genesis News Planet"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:52
+msgid "RSS Feed"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:56
+msgid "http://genesisthemes.de/en/wp-plugins/"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:56
+msgid "Genesis &amp; WordPress Plugins"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:56
+msgid "Genesis Plugins"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:58
+msgid "http://genesisthemes.de/en/genesis-child-themes/"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:58
+msgid "Free &amp; Premium Child Themes for Genesis Framework"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:58
+msgid "Genesis Themes"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:144
+msgid "How many items would you like to display?"
+msgstr ""
+
+#: genesis-dashboard-news.php:0 includes/gdbn-help.php:71
+#: includes/gdbn-help.php:99 includes/gdbn-help_bewaehrt.php:58
+#: includes/gdbn-help_bewaehrt.php:75
+msgid "Genesis Dashboard News"
+msgstr ""
+
+#: genesis-dashboard-news.php:0
+msgid "David Decker - DECKERWEB"
+msgstr ""
+
+#: genesis-dashboard-news.php:0
+msgid "http://deckerweb.de/"
+msgstr ""
+
+#: genesis-dashboard-news.php:0
+msgid "http://genesisthemes.de/en/wp-plugins/genesis-dashboard-news/"
+msgstr ""
+
+#: includes/gdbn-help.php:101 includes/gdbn-help_bewaehrt.php:59
+msgid "Just a simple dashboard news widget regarding the %1$sGenesis Theme Framework%2$s - all plugin info and support could be found at %3$sGenesisThemes.de%4$s. Thanx for using this plugin! <em>&mdash;David Decker of deckerweb.de</em>"
+msgstr ""
+
+#: includes/gdbn-admin.php:47
+msgid "Go to the Dashboard page"
+msgstr ""
+
+#: includes/gdbn-admin.php:47
+msgid "Dashboard"
+msgstr ""
+
+#: includes/gdbn-admin.php:75 includes/gdbn-help.php:105
+#: includes/gdbn-help.php:110 includes/gdbn-help_bewaehrt.php:63
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "FAQ"
+msgstr ""
+
+#: includes/gdbn-admin.php:76 includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Support"
+msgstr ""
+
+#: includes/gdbn-admin.php:79 includes/gdbn-help.php:110
+#: includes/gdbn-help_bewaehrt.php:68
+msgid "Donate"
+msgstr ""
+
+#: genesis-dashboard-news.php:0
+msgid "Adds a new dashboard widget to your WordPress Admin Dashboard that pulls in items of the News Planet for the Genesis Framework and its ecosystem."
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:54 includes/gdbn-help.php:106
+#: includes/gdbn-help_bewaehrt.php:64
+msgid "Find then Create. Your Genesis Framework Search Engine."
+msgstr ""
+
+#: includes/gdbn-help.php:104 includes/gdbn-help_bewaehrt.php:62
+msgid "Subscribe to the Genesis News Planet"
+msgstr ""
+
+#: includes/gdbn-help.php:104 includes/gdbn-help_bewaehrt.php:62
+msgid "or via feed reader RSS/ATOM"
+msgstr ""
+
+#: includes/gdbn-help.php:105 includes/gdbn-help_bewaehrt.php:63
+msgid "How to change the RSS cache lifetime in WordPress which also effects this plugin's dashboard widget..."
+msgstr ""
+
+#: includes/gdbn-help.php:109 includes/gdbn-help_bewaehrt.php:67
+msgid "Important plugin links:"
+msgstr ""
+
+#: includes/gdbn-help.php:104 includes/gdbn-help_bewaehrt.php:62
+msgid "via FriendFeed service"
+msgstr ""
+
+#: includes/gdbn-dashboard-widget.php:81
+msgid "Genesis News Planet"
+msgstr ""
